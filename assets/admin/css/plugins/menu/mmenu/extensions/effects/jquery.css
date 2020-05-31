@@ -1,0 +1,113 @@
+/*
+	jQuery.mmenu effects extension CSS
+*/
+.mm-menu.mm-effect-menu-zoom {
+  transition: transform 0.4s ease; }
+
+html.mm-opened .mm-menu.mm-effect-menu-zoom {
+  transform: scale(0.7, 0.7) translate3d(-30%, 0, 0);
+  transform-origin: left center; }
+
+html.mm-opening .mm-menu.mm-effect-menu-zoom {
+  transform: scale(1, 1) translate3d(0%, 0, 0); }
+
+html.mm-right.mm-opened .mm-menu.mm-effect-menu-zoom {
+  transform: scale(0.7, 0.7) translate3d(30%, 0, 0);
+  transform-origin: right center; }
+
+html.mm-right.mm-opening .mm-menu.mm-effect-menu-zoom {
+  transform: scale(1, 1) translate3d(0%, 0, 0); }
+
+.mm-menu.mm-effect-menu-slide {
+  transition: transform 0.4s ease; }
+
+html.mm-opened .mm-menu.mm-effect-menu-slide {
+  transform: translate3d(-30%, 0, 0); }
+
+html.mm-opening .mm-menu.mm-effect-menu-slide {
+  transform: translate3d(0%, 0, 0); }
+
+html.mm-right.mm-opened .mm-menu.mm-effect-menu-slide {
+  transform: translate3d(30%, 0, 0); }
+
+html.mm-right.mm-opening .mm-menu.mm-effect-menu-slide {
+  transform: translate3d(0%, 0, 0); }
+
+.mm-menu.mm-effect-menu-fade {
+  opacity: 0;
+  transition: opacity 0.4s ease; }
+
+html.mm-opening .mm-menu.mm-effect-menu-fade {
+  opacity: 1; }
+
+.mm-menu.mm-effect-panels-zoom .mm-panel {
+  transform: scale(1.5, 1.5) translate3d(100%, 0, 0);
+  transform-origin: left center; }
+  .mm-menu.mm-effect-panels-zoom .mm-panel.mm-opened {
+    transform: scale(1, 1) translate3d(0%, 0, 0); }
+    .mm-menu.mm-effect-panels-zoom .mm-panel.mm-opened.mm-subopened {
+      transform: scale(0.7, 0.7) translate3d(-30%, 0, 0); }
+
+.mm-menu.mm-effect-panels-slide-0 .mm-panel.mm-subopened {
+  transform: translate3d(0, 0, 0); }
+
+.mm-menu.mm-effect-panels-slide-100 .mm-panel.mm-subopened {
+  transform: translate3d(-100%, 0, 0); }
+
+.mm-menu[class*="mm-effect-listitems-"] .mm-listview > li {
+  transition: none 0.4s ease; }
+  .mm-menu[class*="mm-effect-listitems-"] .mm-listview > li:nth-child(1) {
+    transition-delay: 50ms; }
+  .mm-menu[class*="mm-effect-listitems-"] .mm-listview > li:nth-child(2) {
+    transition-delay: 100ms; }
+  .mm-menu[class*="mm-effect-listitems-"] .mm-listview > li:nth-child(3) {
+    transition-delay: 150ms; }
+  .mm-menu[class*="mm-effect-listitems-"] .mm-listview > li:nth-child(4) {
+    transition-delay: 200ms; }
+  .mm-menu[class*="mm-effect-listitems-"] .mm-listview > li:nth-child(5) {
+    transition-delay: 250ms; }
+  .mm-menu[class*="mm-effect-listitems-"] .mm-listview > li:nth-child(6) {
+    transition-delay: 300ms; }
+  .mm-menu[class*="mm-effect-listitems-"] .mm-listview > li:nth-child(7) {
+    transition-delay: 350ms; }
+  .mm-menu[class*="mm-effect-listitems-"] .mm-listview > li:nth-child(8) {
+    transition-delay: 400ms; }
+  .mm-menu[class*="mm-effect-listitems-"] .mm-listview > li:nth-child(9) {
+    transition-delay: 450ms; }
+  .mm-menu[class*="mm-effect-listitems-"] .mm-listview > li:nth-child(10) {
+    transition-delay: 500ms; }
+  .mm-menu[class*="mm-effect-listitems-"] .mm-listview > li:nth-child(11) {
+    transition-delay: 550ms; }
+  .mm-menu[class*="mm-effect-listitems-"] .mm-listview > li:nth-child(12) {
+    transition-delay: 600ms; }
+  .mm-menu[class*="mm-effect-listitems-"] .mm-listview > li:nth-child(13) {
+    transition-delay: 650ms; }
+  .mm-menu[class*="mm-effect-listitems-"] .mm-listview > li:nth-child(14) {
+    transition-delay: 700ms; }
+  .mm-menu[class*="mm-effect-listitems-"] .mm-listview > li:nth-child(15) {
+    transition-delay: 750ms; }
+
+.mm-menu.mm-effect-listitems-slide .mm-listview > li {
+  transition-property: transform, opacity;
+  transform: translate3d(50%, 0, 0);
+  opacity: 0; }
+
+html.mm-opening .mm-menu.mm-effect-listitems-slide .mm-panel.mm-opened .mm-listview > li {
+  transform: translate3d(0, 0, 0);
+  opacity: 1; }
+
+.mm-menu.mm-effect-listitems-fade .mm-listview > li {
+  transition-property: opacity;
+  opacity: 0; }
+
+html.mm-opening .mm-menu.mm-effect-listitems-fade .mm-panel.mm-opened .mm-listview > li {
+  opacity: 1; }
+
+.mm-menu.mm-effect-listitems-drop .mm-listview > li {
+  transition-property: opacity, top;
+  opacity: 0;
+  top: -25%; }
+
+html.mm-opening .mm-menu.mm-effect-listitems-drop .mm-panel.mm-opened .mm-listview > li {
+  opacity: 1;
+  top: 0; }

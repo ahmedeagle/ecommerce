@@ -1,0 +1,33 @@
+{"nodes":[
+{"name":"Wealth Management"},
+{"name":"WMA"},
+{"name":"Retail/Corporate"},
+{"name":"GAM"},
+{"name":"Investment Bank"},
+    {"name":"Americas"},
+    {"name":"APAC"},
+    {"name":"EMEA"},
+    {"name":"Switzerland"}
+],
+"links":[
+{"source":0,"target":5,"value":100},
+{"source":1,"target":5,"value":1800},
+{"source":2,"target":5,"value":0.1},
+{"source":3,"target":5,"value":200},
+{"source":4,"target":5,"value":800},
+{"source":0,"target":6,"value":600},
+{"source":1,"target":6,"value":0.1},
+{"source":2,"target":6,"value":0.1},
+{"source":3,"target":6,"value":100},
+{"source":4,"target":6,"value":700},
+{"source":0,"target":7,"value":1000},
+{"source":1,"target":7,"value":0.1},
+{"source":2,"target":7,"value":0.1},
+{"source":3,"target":7,"value":100},
+{"source":4,"target":7,"value":800},
+{"source":0,"target":8,"value":400},
+{"source":1,"target":8,"value":0.1},
+{"source":2,"target":8,"value":1000},
+{"source":3,"target":8,"value":100},
+{"source":4,"target":8,"value":400}
+]}

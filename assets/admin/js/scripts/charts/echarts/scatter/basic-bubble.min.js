@@ -1,0 +1,6 @@
+/*!
+ * stack-admin-theme (https://pixinvent.com/bootstrap-admin-template/stack)
+ * Copyright 2018 PIXINVENT
+ * Licensed under the Themeforest Standard Licenses
+ */
+$(window).on("load",function(){require.config({paths:{echarts:"../../../app-assets/vendors/js/charts/echarts"}}),require(["echarts","echarts/chart/scatter"],function(ec){function random(){var r=Math.round(100*Math.random());return r*(r%2==0?1:-1)}function randomDataArray(){for(var d=[],len=100;len--;)d.push([random(),random(),Math.abs(random())]);return d}var myChart=ec.init(document.getElementById("basic-bubble"));chartOptions={grid:{x:40,x2:40,y:45,y2:25},tooltip:{trigger:"axis",showDelay:0,axisPointer:{show:!0,type:"cross",lineStyle:{type:"dashed",width:1}}},legend:{data:["scatter1","scatter2"]},color:["#673AB7","#E91E63"],xAxis:[{type:"value",splitNumber:4,scale:!0}],yAxis:[{type:"value",splitNumber:4,scale:!0}],series:[{name:"scatter1",type:"scatter",symbolSize:function(value){return Math.round(value[2]/5)},data:randomDataArray()},{name:"scatter2",type:"scatter",symbolSize:function(value){return Math.round(value[2]/5)},data:randomDataArray()}]},myChart.setOption(chartOptions),$(function(){function resize(){setTimeout(function(){myChart.resize()},200)}$(window).on("resize",resize),$(".menu-toggle").on("click",resize)})})});

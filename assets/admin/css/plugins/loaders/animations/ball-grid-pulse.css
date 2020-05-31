@@ -1,0 +1,51 @@
+@keyframes ball-grid-pulse {
+  0% {
+    transform: scale(1); }
+  50% {
+    transform: scale(0.5);
+    opacity: 0.7; }
+  100% {
+    transform: scale(1);
+    opacity: 1; } }
+
+.ball-grid-pulse {
+  width: 57px; }
+  .ball-grid-pulse > div:nth-child(1) {
+    animation-delay: 0.15s;
+    animation-duration: 1.49s; }
+  .ball-grid-pulse > div:nth-child(2) {
+    animation-delay: 0.56s;
+    animation-duration: 0.87s; }
+  .ball-grid-pulse > div:nth-child(3) {
+    animation-delay: -0.07s;
+    animation-duration: 1.09s; }
+  .ball-grid-pulse > div:nth-child(4) {
+    animation-delay: -0.07s;
+    animation-duration: 1.12s; }
+  .ball-grid-pulse > div:nth-child(5) {
+    animation-delay: -0.17s;
+    animation-duration: 0.92s; }
+  .ball-grid-pulse > div:nth-child(6) {
+    animation-delay: -0.03s;
+    animation-duration: 1.23s; }
+  .ball-grid-pulse > div:nth-child(7) {
+    animation-delay: 0.11s;
+    animation-duration: 1.39s; }
+  .ball-grid-pulse > div:nth-child(8) {
+    animation-delay: 0.27s;
+    animation-duration: 1.18s; }
+  .ball-grid-pulse > div:nth-child(9) {
+    animation-delay: 0.47s;
+    animation-duration: 0.92s; }
+  .ball-grid-pulse > div {
+    background-color: #6B6F82;
+    width: 15px;
+    height: 15px;
+    border-radius: 100%;
+    margin: 2px;
+    animation-fill-mode: both;
+    display: inline-block;
+    float: left;
+    animation-name: ball-grid-pulse;
+    animation-iteration-count: infinite;
+    animation-delay: 0; }

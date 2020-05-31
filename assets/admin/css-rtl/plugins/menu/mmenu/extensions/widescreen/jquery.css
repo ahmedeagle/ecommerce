@@ -1,0 +1,46 @@
+/*
+	jQuery.mmenu widescreen extension CSS
+	
+	To use on widescreens only, include it using a mediaquery:
+	<link type="text/css" href="mmenu-widescreen.css" media="all and (min-width: 900px)"/>
+*/
+html,
+body {
+  overflow: auto !important; }
+
+body {
+  position: relative; }
+
+#mm-blocker {
+  display: none !important; }
+
+.mm-slideout {
+  -webkit-transform: none !important;
+     -moz-transform: none !important;
+      -ms-transform: none !important;
+       -o-transform: none !important;
+          transform: none !important;
+  width: 70% !important;
+  margin-right: 30% !important; }
+
+.mm-page {
+  background: inherit;
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box; }
+
+.mm-menu.mm-widescreen {
+  display: block;
+  width: 30% !important;
+  min-width: none !important;
+  max-width: none !important;
+  top: 0 !important;
+  left: auto !important;
+  bottom: 0 !important;
+  right: 0 !important;
+  z-index: 0 !important;
+  border-left-width: 1px;
+  border-left-style: solid; }
+  .mm-menu.mm-widescreen.mm-pageshadow:after {
+    content: none;
+    display: none; }
