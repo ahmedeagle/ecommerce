@@ -1,0 +1,167 @@
+@font-face {
+  font-family: 'meteocons';
+  src:  url('fonts/meteocons.eot?df08c6');
+  src:  url('fonts/meteocons.eot?df08c6#iefix') format('embedded-opentype'),
+    url('fonts/meteocons.ttf?df08c6') format('truetype'),
+    url('fonts/meteocons.woff?df08c6') format('woff'),
+    url('fonts/meteocons.svg?df08c6#meteocons') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="me-"], [class*=" me-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'meteocons' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.me-sunrise:before {
+  content: "\e900";
+}
+.me-sun:before {
+  content: "\e901";
+}
+.me-moon:before {
+  content: "\e902";
+}
+.me-sun2:before {
+  content: "\e903";
+}
+.me-windy:before {
+  content: "\e904";
+}
+.me-wind:before {
+  content: "\e905";
+}
+.me-snowflake:before {
+  content: "\e906";
+}
+.me-cloudy:before {
+  content: "\e907";
+}
+.me-cloud:before {
+  content: "\e908";
+}
+.me-weather:before {
+  content: "\e909";
+}
+.me-weather2:before {
+  content: "\e90a";
+}
+.me-weather3:before {
+  content: "\e90b";
+}
+.me-lines:before {
+  content: "\e90c";
+}
+.me-cloud2:before {
+  content: "\e90d";
+}
+.me-lightning:before {
+  content: "\e90e";
+}
+.me-lightning2:before {
+  content: "\e90f";
+}
+.me-rainy:before {
+  content: "\e910";
+}
+.me-rainy2:before {
+  content: "\e911";
+}
+.me-windy2:before {
+  content: "\e912";
+}
+.me-windy3:before {
+  content: "\e913";
+}
+.me-snowy:before {
+  content: "\e914";
+}
+.me-snowy2:before {
+  content: "\e915";
+}
+.me-snowy3:before {
+  content: "\e916";
+}
+.me-weather4:before {
+  content: "\e917";
+}
+.me-cloudy2:before {
+  content: "\e918";
+}
+.me-cloud3:before {
+  content: "\e919";
+}
+.me-lightning3:before {
+  content: "\e91a";
+}
+.me-sun3:before {
+  content: "\e91b";
+}
+.me-moon2:before {
+  content: "\e91c";
+}
+.me-cloudy3:before {
+  content: "\e91d";
+}
+.me-cloud4:before {
+  content: "\e91e";
+}
+.me-cloud5:before {
+  content: "\e91f";
+}
+.me-lightning4:before {
+  content: "\e920";
+}
+.me-rainy3:before {
+  content: "\e921";
+}
+.me-rainy4:before {
+  content: "\e922";
+}
+.me-windy4:before {
+  content: "\e923";
+}
+.me-windy5:before {
+  content: "\e924";
+}
+.me-snowy4:before {
+  content: "\e925";
+}
+.me-snowy5:before {
+  content: "\e926";
+}
+.me-weather5:before {
+  content: "\e927";
+}
+.me-cloudy4:before {
+  content: "\e928";
+}
+.me-lightning5:before {
+  content: "\e929";
+}
+.me-thermometer:before {
+  content: "\e92a";
+}
+.me-compass:before {
+  content: "\e92b";
+}
+.me-none:before {
+  content: "\e92c";
+}
+.me-Celsius:before {
+  content: "\e92d";
+}
+.me-Fahrenheit:before {
+  content: "\e92e";
+}

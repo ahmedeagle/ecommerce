@@ -1,0 +1,6 @@
+/*!
+ * stack-admin-theme (https://pixinvent.com/bootstrap-admin-template/stack)
+ * Copyright 2018 PIXINVENT
+ * Licensed under the Themeforest Standard Licenses
+ */
+$(window).on("load",function(){require.config({paths:{echarts:"../../../app-assets/vendors/js/charts/echarts"}}),require(["echarts","echarts/chart/scatter"],function(ec){var myChart=ec.init(document.getElementById("large-scale-scatter"));chartOptions={grid:{x:40,x2:40,y:45,y2:25},tooltip:{trigger:"axis",showDelay:0,axisPointer:{show:!0,type:"cross",lineStyle:{type:"dashed",width:1}}},legend:{data:["sin","cos"]},color:["#1DE9B6","#FF4081"],xAxis:[{type:"value",scale:!0}],yAxis:[{type:"value",scale:!0}],series:[{name:"sin",type:"scatter",large:!0,data:function(){for(var d=[],len=1e4,x=0;len--;)x=(10*Math.random()).toFixed(3)-0,d.push([x,(Math.sin(x)-x*(len%2?.1:-.1)*Math.random()).toFixed(3)-0]);return d}()},{name:"cos",type:"scatter",large:!0,data:function(){for(var d=[],len=1e4,x=0;len--;)x=(10*Math.random()).toFixed(3)-0,d.push([x,(Math.cos(x)-x*(len%2?.1:-.1)*Math.random()).toFixed(3)-0]);return d}()}]},myChart.setOption(chartOptions),$(function(){function resize(){setTimeout(function(){myChart.resize()},200)}$(window).on("resize",resize),$(".menu-toggle").on("click",resize)})})});

@@ -1,0 +1,62 @@
+{
+  "name": "Overall Winner",
+  "winners": [
+    {
+      "name": "Winner Left 1",
+      "winners": [
+        {"name": "Winner Left 3"},
+        {
+          "name": "Winner Left 4",
+          "winners": [
+            {"name": "Winner Left 3"},
+            {"name": "Winner Left 5"},
+            {"name": "Winner Left 4"}
+          ]
+        }
+      ]
+    },
+    {"name": "Winner Left 2"},
+    {
+      "name": "Winner Left 2",
+      "winners": [
+        {
+          "name": "Winner Left 3",
+          "winners": [
+            {"name": "Winner Left 4"},
+            {"name": "Winner Left 4"}
+          ]
+        },
+        {"name": "Winner Left 4"}
+      ]
+    }
+  ],
+  "challengers": [
+    {
+      "name": "Challenger Right 1",
+      "challengers": [
+        {"name": "Challenger Right 3"},
+        {"name": "Challenger Right 4"}
+      ]
+    },
+    {
+      "name": "Challenger Right 2",
+      "challengers": [
+        {"name": "Challenger Right 3"},
+        {
+          "name": "Challenger Right 4",
+          "challengers": [
+            {"name": "Challenger Right 3"},
+            {"name": "Challenger Right 4"}
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Challenger Right 3",
+      "challengers": [
+        {"name": "Challenger Right 5"},
+        {"name": "Challenger Right 6"}
+      ]
+    }
+  ]
+}

@@ -1,0 +1,320 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xml:base="http://services.odata.org/V3/(S(3mnweai3qldmghnzfshavfok))/OData/OData.svc/" xmlns="http://www.w3.org/2005/Atom" xmlns:d="http://schemas.microsoft.com/ado/2007/08/dataservices" xmlns:m="http://schemas.microsoft.com/ado/2007/08/dataservices/metadata"
+    xmlns:georss="http://www.georss.org/georss" xmlns:gml="http://www.opengis.net/gml">
+    <id>http://services.odata.org/V3/(S(3mnweai3qldmghnzfshavfok))/OData/OData.svc/Products</id>
+    <title type="text">Products</title>
+    <updated>2016-12-30T12:24:34Z</updated>
+    <link rel="self" title="Products" href="Products" />
+    <entry>
+        <id>http://services.odata.org/V3/(S(3mnweai3qldmghnzfshavfok))/OData/OData.svc/Products(0)</id>
+        <category term="ODataDemo.Product" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+        <link rel="edit" title="Product" href="Products(0)" />
+        <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/Categories" type="application/atom+xml;type=feed" title="Categories" href="Products(0)/Categories" />
+        <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/Supplier" type="application/atom+xml;type=entry" title="Supplier" href="Products(0)/Supplier" />
+        <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/ProductDetail" type="application/atom+xml;type=entry" title="ProductDetail" href="Products(0)/ProductDetail" />
+        <title type="text">Bread</title>
+        <summary type="text">Whole grain bread</summary>
+        <updated>2016-12-30T12:24:34Z</updated>
+        <author>
+            <name />
+        </author>
+        <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/relatedlinks/Categories" type="application/xml" title="Categories" href="Products(0)/$links/Categories" />
+        <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/relatedlinks/Supplier" type="application/xml" title="Supplier" href="Products(0)/$links/Supplier" />
+        <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/relatedlinks/ProductDetail" type="application/xml" title="ProductDetail" href="Products(0)/$links/ProductDetail" />
+        <m:action metadata="http://services.odata.org/V3/(S(3mnweai3qldmghnzfshavfok))/OData/OData.svc/$metadata#DemoService.Discount" title="Discount" target="http://services.odata.org/V3/(S(3mnweai3qldmghnzfshavfok))/OData/OData.svc/Products(0)/Discount"
+        />
+        <content type="application/xml">
+            <m:properties>
+                <d:ID m:type="Edm.Int32">0</d:ID>
+                <d:ReleaseDate m:type="Edm.DateTime">1992-01-01T00:00:00</d:ReleaseDate>
+                <d:DiscontinuedDate m:null="true" />
+                <d:Rating m:type="Edm.Int16">4</d:Rating>
+                <d:Price m:type="Edm.Double">2.5</d:Price>
+            </m:properties>
+        </content>
+    </entry>
+    <entry>
+        <id>http://services.odata.org/V3/(S(3mnweai3qldmghnzfshavfok))/OData/OData.svc/Products(1)</id>
+        <category term="ODataDemo.Product" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+        <link rel="edit" title="Product" href="Products(1)" />
+        <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/Categories" type="application/atom+xml;type=feed" title="Categories" href="Products(1)/Categories" />
+        <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/Supplier" type="application/atom+xml;type=entry" title="Supplier" href="Products(1)/Supplier" />
+        <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/ProductDetail" type="application/atom+xml;type=entry" title="ProductDetail" href="Products(1)/ProductDetail" />
+        <title type="text">Milk</title>
+        <summary type="text">Low fat milk</summary>
+        <updated>2016-12-30T12:24:34Z</updated>
+        <author>
+            <name />
+        </author>
+        <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/relatedlinks/Categories" type="application/xml" title="Categories" href="Products(1)/$links/Categories" />
+        <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/relatedlinks/Supplier" type="application/xml" title="Supplier" href="Products(1)/$links/Supplier" />
+        <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/relatedlinks/ProductDetail" type="application/xml" title="ProductDetail" href="Products(1)/$links/ProductDetail" />
+        <m:action metadata="http://services.odata.org/V3/(S(3mnweai3qldmghnzfshavfok))/OData/OData.svc/$metadata#DemoService.Discount" title="Discount" target="http://services.odata.org/V3/(S(3mnweai3qldmghnzfshavfok))/OData/OData.svc/Products(1)/Discount"
+        />
+        <content type="application/xml">
+            <m:properties>
+                <d:ID m:type="Edm.Int32">1</d:ID>
+                <d:ReleaseDate m:type="Edm.DateTime">1995-10-01T00:00:00</d:ReleaseDate>
+                <d:DiscontinuedDate m:null="true" />
+                <d:Rating m:type="Edm.Int16">3</d:Rating>
+                <d:Price m:type="Edm.Double">3.5</d:Price>
+            </m:properties>
+        </content>
+    </entry>
+    <entry>
+        <id>http://services.odata.org/V3/(S(3mnweai3qldmghnzfshavfok))/OData/OData.svc/Products(2)</id>
+        <category term="ODataDemo.Product" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+        <link rel="edit" title="Product" href="Products(2)" />
+        <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/Categories" type="application/atom+xml;type=feed" title="Categories" href="Products(2)/Categories" />
+        <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/Supplier" type="application/atom+xml;type=entry" title="Supplier" href="Products(2)/Supplier" />
+        <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/ProductDetail" type="application/atom+xml;type=entry" title="ProductDetail" href="Products(2)/ProductDetail" />
+        <title type="text">Vint soda</title>
+        <summary type="text">Americana Variety - Mix of 6 flavors</summary>
+        <updated>2016-12-30T12:24:34Z</updated>
+        <author>
+            <name />
+        </author>
+        <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/relatedlinks/Categories" type="application/xml" title="Categories" href="Products(2)/$links/Categories" />
+        <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/relatedlinks/Supplier" type="application/xml" title="Supplier" href="Products(2)/$links/Supplier" />
+        <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/relatedlinks/ProductDetail" type="application/xml" title="ProductDetail" href="Products(2)/$links/ProductDetail" />
+        <m:action metadata="http://services.odata.org/V3/(S(3mnweai3qldmghnzfshavfok))/OData/OData.svc/$metadata#DemoService.Discount" title="Discount" target="http://services.odata.org/V3/(S(3mnweai3qldmghnzfshavfok))/OData/OData.svc/Products(2)/Discount"
+        />
+        <content type="application/xml">
+            <m:properties>
+                <d:ID m:type="Edm.Int32">2</d:ID>
+                <d:ReleaseDate m:type="Edm.DateTime">2000-10-01T00:00:00</d:ReleaseDate>
+                <d:DiscontinuedDate m:null="true" />
+                <d:Rating m:type="Edm.Int16">3</d:Rating>
+                <d:Price m:type="Edm.Double">20.9</d:Price>
+            </m:properties>
+        </content>
+    </entry>
+    <entry>
+        <id>http://services.odata.org/V3/(S(3mnweai3qldmghnzfshavfok))/OData/OData.svc/Products(3)</id>
+        <category term="ODataDemo.Product" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+        <link rel="edit" title="Product" href="Products(3)" />
+        <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/Categories" type="application/atom+xml;type=feed" title="Categories" href="Products(3)/Categories" />
+        <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/Supplier" type="application/atom+xml;type=entry" title="Supplier" href="Products(3)/Supplier" />
+        <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/ProductDetail" type="application/atom+xml;type=entry" title="ProductDetail" href="Products(3)/ProductDetail" />
+        <title type="text">Havina Cola</title>
+        <summary type="text">The Original Key Lime Cola</summary>
+        <updated>2016-12-30T12:24:34Z</updated>
+        <author>
+            <name />
+        </author>
+        <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/relatedlinks/Categories" type="application/xml" title="Categories" href="Products(3)/$links/Categories" />
+        <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/relatedlinks/Supplier" type="application/xml" title="Supplier" href="Products(3)/$links/Supplier" />
+        <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/relatedlinks/ProductDetail" type="application/xml" title="ProductDetail" href="Products(3)/$links/ProductDetail" />
+        <m:action metadata="http://services.odata.org/V3/(S(3mnweai3qldmghnzfshavfok))/OData/OData.svc/$metadata#DemoService.Discount" title="Discount" target="http://services.odata.org/V3/(S(3mnweai3qldmghnzfshavfok))/OData/OData.svc/Products(3)/Discount"
+        />
+        <content type="application/xml">
+            <m:properties>
+                <d:ID m:type="Edm.Int32">3</d:ID>
+                <d:ReleaseDate m:type="Edm.DateTime">2005-10-01T00:00:00</d:ReleaseDate>
+                <d:DiscontinuedDate m:type="Edm.DateTime">2006-10-01T00:00:00</d:DiscontinuedDate>
+                <d:Rating m:type="Edm.Int16">3</d:Rating>
+                <d:Price m:type="Edm.Double">19.9</d:Price>
+            </m:properties>
+        </content>
+    </entry>
+    <entry>
+        <id>http://services.odata.org/V3/(S(3mnweai3qldmghnzfshavfok))/OData/OData.svc/Products(4)</id>
+        <category term="ODataDemo.Product" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+        <link rel="edit" title="Product" href="Products(4)" />
+        <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/Categories" type="application/atom+xml;type=feed" title="Categories" href="Products(4)/Categories" />
+        <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/Supplier" type="application/atom+xml;type=entry" title="Supplier" href="Products(4)/Supplier" />
+        <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/ProductDetail" type="application/atom+xml;type=entry" title="ProductDetail" href="Products(4)/ProductDetail" />
+        <title type="text">Fruit Punch</title>
+        <summary type="text">Mango flavor, 8.3 Ounce Cans (Pack of 24)</summary>
+        <updated>2016-12-30T12:24:34Z</updated>
+        <author>
+            <name />
+        </author>
+        <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/relatedlinks/Categories" type="application/xml" title="Categories" href="Products(4)/$links/Categories" />
+        <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/relatedlinks/Supplier" type="application/xml" title="Supplier" href="Products(4)/$links/Supplier" />
+        <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/relatedlinks/ProductDetail" type="application/xml" title="ProductDetail" href="Products(4)/$links/ProductDetail" />
+        <m:action metadata="http://services.odata.org/V3/(S(3mnweai3qldmghnzfshavfok))/OData/OData.svc/$metadata#DemoService.Discount" title="Discount" target="http://services.odata.org/V3/(S(3mnweai3qldmghnzfshavfok))/OData/OData.svc/Products(4)/Discount"
+        />
+        <content type="application/xml">
+            <m:properties>
+                <d:ID m:type="Edm.Int32">4</d:ID>
+                <d:ReleaseDate m:type="Edm.DateTime">2003-01-05T00:00:00</d:ReleaseDate>
+                <d:DiscontinuedDate m:null="true" />
+                <d:Rating m:type="Edm.Int16">3</d:Rating>
+                <d:Price m:type="Edm.Double">22.99</d:Price>
+            </m:properties>
+        </content>
+    </entry>
+    <entry>
+        <id>http://services.odata.org/V3/(S(3mnweai3qldmghnzfshavfok))/OData/OData.svc/Products(5)</id>
+        <category term="ODataDemo.Product" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+        <link rel="edit" title="Product" href="Products(5)" />
+        <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/Categories" type="application/atom+xml;type=feed" title="Categories" href="Products(5)/Categories" />
+        <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/Supplier" type="application/atom+xml;type=entry" title="Supplier" href="Products(5)/Supplier" />
+        <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/ProductDetail" type="application/atom+xml;type=entry" title="ProductDetail" href="Products(5)/ProductDetail" />
+        <title type="text">Cranberry Juice</title>
+        <summary type="text">16-Ounce Plastic Bottles (Pack of 12)</summary>
+        <updated>2016-12-30T12:24:34Z</updated>
+        <author>
+            <name />
+        </author>
+        <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/relatedlinks/Categories" type="application/xml" title="Categories" href="Products(5)/$links/Categories" />
+        <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/relatedlinks/Supplier" type="application/xml" title="Supplier" href="Products(5)/$links/Supplier" />
+        <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/relatedlinks/ProductDetail" type="application/xml" title="ProductDetail" href="Products(5)/$links/ProductDetail" />
+        <m:action metadata="http://services.odata.org/V3/(S(3mnweai3qldmghnzfshavfok))/OData/OData.svc/$metadata#DemoService.Discount" title="Discount" target="http://services.odata.org/V3/(S(3mnweai3qldmghnzfshavfok))/OData/OData.svc/Products(5)/Discount"
+        />
+        <content type="application/xml">
+            <m:properties>
+                <d:ID m:type="Edm.Int32">5</d:ID>
+                <d:ReleaseDate m:type="Edm.DateTime">2006-08-04T00:00:00</d:ReleaseDate>
+                <d:DiscontinuedDate m:null="true" />
+                <d:Rating m:type="Edm.Int16">3</d:Rating>
+                <d:Price m:type="Edm.Double">22.8</d:Price>
+            </m:properties>
+        </content>
+    </entry>
+    <entry>
+        <id>http://services.odata.org/V3/(S(3mnweai3qldmghnzfshavfok))/OData/OData.svc/Products(6)</id>
+        <category term="ODataDemo.Product" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+        <link rel="edit" title="Product" href="Products(6)" />
+        <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/Categories" type="application/atom+xml;type=feed" title="Categories" href="Products(6)/Categories" />
+        <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/Supplier" type="application/atom+xml;type=entry" title="Supplier" href="Products(6)/Supplier" />
+        <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/ProductDetail" type="application/atom+xml;type=entry" title="ProductDetail" href="Products(6)/ProductDetail" />
+        <title type="text">Pink Lemonade</title>
+        <summary type="text">36 Ounce Cans (Pack of 3)</summary>
+        <updated>2016-12-30T12:24:34Z</updated>
+        <author>
+            <name />
+        </author>
+        <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/relatedlinks/Categories" type="application/xml" title="Categories" href="Products(6)/$links/Categories" />
+        <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/relatedlinks/Supplier" type="application/xml" title="Supplier" href="Products(6)/$links/Supplier" />
+        <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/relatedlinks/ProductDetail" type="application/xml" title="ProductDetail" href="Products(6)/$links/ProductDetail" />
+        <m:action metadata="http://services.odata.org/V3/(S(3mnweai3qldmghnzfshavfok))/OData/OData.svc/$metadata#DemoService.Discount" title="Discount" target="http://services.odata.org/V3/(S(3mnweai3qldmghnzfshavfok))/OData/OData.svc/Products(6)/Discount"
+        />
+        <content type="application/xml">
+            <m:properties>
+                <d:ID m:type="Edm.Int32">6</d:ID>
+                <d:ReleaseDate m:type="Edm.DateTime">2006-11-05T00:00:00</d:ReleaseDate>
+                <d:DiscontinuedDate m:null="true" />
+                <d:Rating m:type="Edm.Int16">3</d:Rating>
+                <d:Price m:type="Edm.Double">18.8</d:Price>
+            </m:properties>
+        </content>
+    </entry>
+    <entry>
+        <id>http://services.odata.org/V3/(S(3mnweai3qldmghnzfshavfok))/OData/OData.svc/Products(7)</id>
+        <category term="ODataDemo.Product" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+        <link rel="edit" title="Product" href="Products(7)" />
+        <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/Categories" type="application/atom+xml;type=feed" title="Categories" href="Products(7)/Categories" />
+        <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/Supplier" type="application/atom+xml;type=entry" title="Supplier" href="Products(7)/Supplier" />
+        <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/ProductDetail" type="application/atom+xml;type=entry" title="ProductDetail" href="Products(7)/ProductDetail" />
+        <title type="text">DVD Player</title>
+        <summary type="text">1080P Upconversion DVD Player</summary>
+        <updated>2016-12-30T12:24:34Z</updated>
+        <author>
+            <name />
+        </author>
+        <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/relatedlinks/Categories" type="application/xml" title="Categories" href="Products(7)/$links/Categories" />
+        <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/relatedlinks/Supplier" type="application/xml" title="Supplier" href="Products(7)/$links/Supplier" />
+        <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/relatedlinks/ProductDetail" type="application/xml" title="ProductDetail" href="Products(7)/$links/ProductDetail" />
+        <m:action metadata="http://services.odata.org/V3/(S(3mnweai3qldmghnzfshavfok))/OData/OData.svc/$metadata#DemoService.Discount" title="Discount" target="http://services.odata.org/V3/(S(3mnweai3qldmghnzfshavfok))/OData/OData.svc/Products(7)/Discount"
+        />
+        <content type="application/xml">
+            <m:properties>
+                <d:ID m:type="Edm.Int32">7</d:ID>
+                <d:ReleaseDate m:type="Edm.DateTime">2006-11-15T00:00:00</d:ReleaseDate>
+                <d:DiscontinuedDate m:null="true" />
+                <d:Rating m:type="Edm.Int16">5</d:Rating>
+                <d:Price m:type="Edm.Double">35.88</d:Price>
+            </m:properties>
+        </content>
+    </entry>
+    <entry>
+        <id>http://services.odata.org/V3/(S(3mnweai3qldmghnzfshavfok))/OData/OData.svc/Products(8)</id>
+        <category term="ODataDemo.Product" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+        <link rel="edit" title="Product" href="Products(8)" />
+        <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/Categories" type="application/atom+xml;type=feed" title="Categories" href="Products(8)/Categories" />
+        <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/Supplier" type="application/atom+xml;type=entry" title="Supplier" href="Products(8)/Supplier" />
+        <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/ProductDetail" type="application/atom+xml;type=entry" title="ProductDetail" href="Products(8)/ProductDetail" />
+        <title type="text">LCD HDTV</title>
+        <summary type="text">42 inch 1080p LCD with Built-in Blu-ray Disc Player</summary>
+        <updated>2016-12-30T12:24:34Z</updated>
+        <author>
+            <name />
+        </author>
+        <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/relatedlinks/Categories" type="application/xml" title="Categories" href="Products(8)/$links/Categories" />
+        <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/relatedlinks/Supplier" type="application/xml" title="Supplier" href="Products(8)/$links/Supplier" />
+        <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/relatedlinks/ProductDetail" type="application/xml" title="ProductDetail" href="Products(8)/$links/ProductDetail" />
+        <m:action metadata="http://services.odata.org/V3/(S(3mnweai3qldmghnzfshavfok))/OData/OData.svc/$metadata#DemoService.Discount" title="Discount" target="http://services.odata.org/V3/(S(3mnweai3qldmghnzfshavfok))/OData/OData.svc/Products(8)/Discount"
+        />
+        <content type="application/xml">
+            <m:properties>
+                <d:ID m:type="Edm.Int32">8</d:ID>
+                <d:ReleaseDate m:type="Edm.DateTime">2008-05-08T00:00:00</d:ReleaseDate>
+                <d:DiscontinuedDate m:null="true" />
+                <d:Rating m:type="Edm.Int16">3</d:Rating>
+                <d:Price m:type="Edm.Double">1088.8</d:Price>
+            </m:properties>
+        </content>
+    </entry>
+    <entry>
+        <id>http://services.odata.org/V3/(S(3mnweai3qldmghnzfshavfok))/OData/OData.svc/Products(9)</id>
+        <category term="ODataDemo.FeaturedProduct" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+        <link rel="edit" title="Product" href="Products(9)/ODataDemo.FeaturedProduct" />
+        <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/Categories" type="application/atom+xml;type=feed" title="Categories" href="Products(9)/ODataDemo.FeaturedProduct/Categories" />
+        <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/Supplier" type="application/atom+xml;type=entry" title="Supplier" href="Products(9)/ODataDemo.FeaturedProduct/Supplier" />
+        <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/ProductDetail" type="application/atom+xml;type=entry" title="ProductDetail" href="Products(9)/ODataDemo.FeaturedProduct/ProductDetail" />
+        <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/Advertisement" type="application/atom+xml;type=entry" title="Advertisement" href="Products(9)/ODataDemo.FeaturedProduct/Advertisement" />
+        <title type="text">Lemonade</title>
+        <summary type="text">Classic, refreshing lemonade (Single bottle)</summary>
+        <updated>2016-12-30T12:24:34Z</updated>
+        <author>
+            <name />
+        </author>
+        <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/relatedlinks/Categories" type="application/xml" title="Categories" href="Products(9)/ODataDemo.FeaturedProduct/$links/Categories" />
+        <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/relatedlinks/Supplier" type="application/xml" title="Supplier" href="Products(9)/ODataDemo.FeaturedProduct/$links/Supplier" />
+        <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/relatedlinks/ProductDetail" type="application/xml" title="ProductDetail" href="Products(9)/ODataDemo.FeaturedProduct/$links/ProductDetail" />
+        <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/relatedlinks/Advertisement" type="application/xml" title="Advertisement" href="Products(9)/ODataDemo.FeaturedProduct/$links/Advertisement" />
+        <m:action metadata="http://services.odata.org/V3/(S(3mnweai3qldmghnzfshavfok))/OData/OData.svc/$metadata#DemoService.Discount" title="Discount" target="http://services.odata.org/V3/(S(3mnweai3qldmghnzfshavfok))/OData/OData.svc/Products(9)/ODataDemo.FeaturedProduct/Discount"
+        />
+        <content type="application/xml">
+            <m:properties>
+                <d:ID m:type="Edm.Int32">9</d:ID>
+                <d:ReleaseDate m:type="Edm.DateTime">1970-01-01T00:00:00</d:ReleaseDate>
+                <d:DiscontinuedDate m:null="true" />
+                <d:Rating m:type="Edm.Int16">7</d:Rating>
+                <d:Price m:type="Edm.Double">1.01</d:Price>
+            </m:properties>
+        </content>
+    </entry>
+    <entry>
+        <id>http://services.odata.org/V3/(S(3mnweai3qldmghnzfshavfok))/OData/OData.svc/Products(10)</id>
+        <category term="ODataDemo.FeaturedProduct" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+        <link rel="edit" title="Product" href="Products(10)/ODataDemo.FeaturedProduct" />
+        <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/Categories" type="application/atom+xml;type=feed" title="Categories" href="Products(10)/ODataDemo.FeaturedProduct/Categories" />
+        <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/Supplier" type="application/atom+xml;type=entry" title="Supplier" href="Products(10)/ODataDemo.FeaturedProduct/Supplier" />
+        <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/ProductDetail" type="application/atom+xml;type=entry" title="ProductDetail" href="Products(10)/ODataDemo.FeaturedProduct/ProductDetail" />
+        <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/Advertisement" type="application/atom+xml;type=entry" title="Advertisement" href="Products(10)/ODataDemo.FeaturedProduct/Advertisement" />
+        <title type="text">Coffee</title>
+        <summary type="text">Bulk size can of instant coffee</summary>
+        <updated>2016-12-30T12:24:34Z</updated>
+        <author>
+            <name />
+        </author>
+        <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/relatedlinks/Categories" type="application/xml" title="Categories" href="Products(10)/ODataDemo.FeaturedProduct/$links/Categories" />
+        <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/relatedlinks/Supplier" type="application/xml" title="Supplier" href="Products(10)/ODataDemo.FeaturedProduct/$links/Supplier" />
+        <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/relatedlinks/ProductDetail" type="application/xml" title="ProductDetail" href="Products(10)/ODataDemo.FeaturedProduct/$links/ProductDetail" />
+        <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/relatedlinks/Advertisement" type="application/xml" title="Advertisement" href="Products(10)/ODataDemo.FeaturedProduct/$links/Advertisement" />
+        <m:action metadata="http://services.odata.org/V3/(S(3mnweai3qldmghnzfshavfok))/OData/OData.svc/$metadata#DemoService.Discount" title="Discount" target="http://services.odata.org/V3/(S(3mnweai3qldmghnzfshavfok))/OData/OData.svc/Products(10)/ODataDemo.FeaturedProduct/Discount"
+        />
+        <content type="application/xml">
+            <m:properties>
+                <d:ID m:type="Edm.Int32">10</d:ID>
+                <d:ReleaseDate m:type="Edm.DateTime">1982-12-31T00:00:00</d:ReleaseDate>
+                <d:DiscontinuedDate m:null="true" />
+                <d:Rating m:type="Edm.Int16">1</d:Rating>
+                <d:Price m:type="Edm.Double">6.99</d:Price>
+            </m:properties>
+        </content>
+    </entry>
+</feed>

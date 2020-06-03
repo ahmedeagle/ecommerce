@@ -1,0 +1,73 @@
+
+{
+ "name": "flare",
+ "children": [
+  {
+   "name": "animate",
+   "children": [
+    {"name": "Pause", "size": 449},
+    {"name": "Sequence", "size": 5534},
+    {"name": "FunctionSequence", "size": 5842},
+    {
+     "name": "interpolate",
+     "children": [
+      {"name": "ArrayInterpolator", "size": 1983},
+      {"name": "RectangleInterpolator", "size": 2042}
+     ]
+    },
+    {"name": "ISchedulable", "size": 1041},
+    {"name": "Parallel", "size": 5176},
+    {"name": "Tween", "size": 6006}
+   ]
+  },
+  {
+   "name": "data",
+   "children": [
+    {"name": "DataField", "size": 1759},
+    {"name": "DataSchema", "size": 2165},
+    {"name": "DataSet", "size": 586},
+    {
+     "name": "converters",
+     "children": [
+      {"name": "Converters", "size": 721},
+      {"name": "JSONConverter", "size": 2220}
+     ]
+    },
+    {"name": "DataSource", "size": 3331},
+    {"name": "DataTable", "size": 772},
+    {"name": "DataUtil", "size": 3322}
+   ]
+  },
+  {
+   "name": "physics",
+   "children": [
+    {"name": "DragForce", "size": 1082},
+    {"name": "SpringForce", "size": 1681}
+   ]
+  },
+  {
+   "name": "query",
+   "children": [
+    {"name": "If", "size": 2732},
+    {"name": "Maximum", "size": 843},
+    {
+     "name": "methods",
+     "children": [
+      {"name": "count", "size": 277},
+      {"name": "xor", "size": 354}
+     ]
+    },
+    {"name": "Query", "size": 13896},
+    {"name": "Range", "size": 1594},
+    {"name": "Xor", "size": 1101}
+   ]
+  },
+  {
+   "name": "scale",
+   "children": [
+    {"name": "IScaleMap", "size": 2105},
+    {"name": "TimeScale", "size": 5833}
+   ]
+  }
+ ]
+}

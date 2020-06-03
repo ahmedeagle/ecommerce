@@ -1,0 +1,632 @@
+{
+    "app": {
+        "name": "Modern Admin - Clean Bootstrap 4 Dashboard HTML Tema"
+    },
+    "nav": {
+        "category": {
+            "layouts": "layouts",
+            "general": "GERAL",
+            "pages": "PÁGINAS",
+            "ui": "INTERFACE DE USUÁRIO",
+            "forms": "FORMULÁRIOS",
+            "tables": "TABELAS",
+            "addons": "ADD ONS",
+            "charts_maps": "CARTAS E MAPAS",
+            "support": "APOIO"
+        },
+        "dash": {
+            "main": "Dashboard",
+            "project": "Projeto",
+            "ecommerce": "comércio eletrônico",
+            "analytics": "Analytics",
+            "crm": "CRM",
+            "fitness": "Ginástica"
+        },
+        "templates": {
+            "main": "Modelos",
+            "vert": {
+                "main": "Vertical",
+                "classic_menu": "Menu Clássico",
+                "compact_menu": "Menu Compacto",
+                "content_menu": "Menu Conteúdo",
+                "overlay_menu": "Menu Sobreposição",
+                "multi_level_menu": "Menu de vários níveis"
+            },
+            "horz": {
+                "main": "Horizontal",
+                "classic": "Clássico",
+                "top_icon": "Ícone superior"
+            }
+        },
+        "page_layouts": {
+            "main": "Layouts de página",
+            "1_column": "1 coluna",
+            "2_columns": "2 colunas",
+            "content": {
+                "main": "3 colunas",
+                "left_sidebar": "Barra lateral esquerda",
+                "left_sticky_sidebar": "Barra lateral esquerda",
+                "right_sidebar": "Barra lateral direita",
+                "right_sticky_sidebar": "Barra lateral direita"
+            },
+            "content_detached": {
+                "main": "3 colunas destacadas",
+                "detached_left_sidebar": "Barra lateral esquerda separada",
+                "detached_sticky_left_sidebar": "Barra lateral esquerda pegajosa destacada",
+                "detached_right_sidebar": "Barra lateral direita separada",
+                "detached_sticky_right_sidebar": "Barra lateral direita pegajosa destacada"
+            },
+            "fixed_navbar": "Barra de navegação fixa",
+            "fixed_navigation": "Navegação fixa",
+            "fixed_navbar_navigation": "Navegação e navegação fixa",
+            "fixed_navbar_footer": "Navbar fixo e rodapé",
+            "fixed_layout": "Layout fixo",
+            "boxed_layout": "Layout em caixa",
+            "static_layout": "Disposição estática",
+            "light_layout": "Layout de luz",
+            "dark_layout": "Layout escuro",
+            "semi_dark_layout": "Disposição semi-escura"
+        },
+        "navbars": {
+            "main": "Navbars",
+            "nav_light": "Luz Navbar",
+            "nav_dark": "Navbar Dark",
+            "nav_semi": "Navbar Semi Dark",
+            "nav_brand_center": "Centro de Marca",
+            "nav_fixed_top": "Fixed Top",
+            "nav_hide_on_scroll": {
+                "main": "Ocultar no rolo",
+                "nav_hide_on_scroll_top": "Ocultar no Scroll Top",
+                "nav_hide_on_scroll_bottom": "Ocultar no fundo do rolo"
+            },
+            "nav_components": "Componentes do Navbar",
+            "nav_styling": "Estilos Navbar"
+        },
+        "vertical_nav": {
+            "main": "Nav vertical",
+            "vertical_navigation_types": {
+                "main": "Tipos de Navegação",
+                "vertical_menu": "Menu vertical",
+                "vertical_mmenu": "vertical MMenu",
+                "vertical_overlay": "Sobreposição de Vertex",
+                "vertical_compact": "vertical Compact",
+                "vertical_content": "Conteúdo vertical"
+            },
+            "vertical_nav_fixed": "Navegação fixa",
+            "vertical_nav_static": "Navegação estática",
+            "vertical_nav_light": "Luz de Navegação",
+            "vertical_nav_dark": "Navegação escura",
+            "vertical_nav_accordion": "Navegação de acordeão",
+            "vertical_nav_collapsible": "Navegação encolhível",
+            "vertical_nav_flipped": "Navegação Flipped",
+            "vertical_nav_native_scroll": "Rolagem nativa",
+            "vertical_nav_right_side_icon": "Ícones do lado direito",
+            "vertical_nav_bordered": "Navegação limitada",
+            "vertical_nav_disabled_link": "Navegação desativada",
+            "vertical_nav_styling": "Estilo de Navegação",
+            "vertical_nav_tags_badges": "Tags e emblemas"
+        },
+        "horz_nav": {
+            "main": "Nav horizontal",
+            "horizontal_navigation_types": {
+                "main": "Tipos de Navegação",
+                "horizontal_left_icon_navigation": "Navegação do ícone esquerdo",
+                "horizontal_top_icon_navigation": "Navegação do ícone superior"
+            },
+            "horizontal_nav_mega_menu": "Mega Menu",
+            "horizontal_nav_fixed": "Navegação fixa",
+            "horizontal_nav_flipped": "Navegação Flipped",
+            "horizontal_nav_submenu_click": "Submenu on Click",
+            "horizontal_nav_submenu_hover": "Submenu em Hover",
+            "horizontal_nav_light": "Navegação leve",
+            "horizontal_nav_dark": "Navegação escura",
+            "horizontal_nav_right_side_icons": "Ícones do lado direito",
+            "horizontal_nav_no_dropdown": "Não há seta suspensa",
+            "horizontal_nav_disabled": "Navegação desativada",
+            "horizontal_nav_tags_badges": "Tags e emblemas",
+            "horizontal_nav_styling": "Estilo de Navegação"
+        },
+        "page_headers": {
+            "main": "Cabeçalhos de página",
+            "headers_breadcrumbs_basic": "Breadcrumbs básico",
+            "headers_breadcrumbs_top": "Breadcrumbs topo",
+            "headers_breadcrumbs_bottom": "Breadcrumbs bottom",
+            "headers_breadcrumbs_top_with_description": "Breadcrumbs topo com desc",
+            "headers_breadcrumbs_with_button": "Breadcrumbs com botão",
+            "headers_breadcrumbs_with_round_button": "Breadcrumbs com botão 2",
+            "headers_breadcrumbs_with_button_group": "Breadcrumbs com botões",
+            "headers_breadcrumbs_breadcrumbs_with_description": "Breadcrumbs com desc",
+            "headers_breadcrumbs_breadcrumbs_with_search": "Breadcrumbs com pesquisa",
+            "headers_breadcrumbs_breadcrumbs_with_stats": "Breadcrumbs com estatísticas"
+        },
+        "footers": {
+            "main": "rodapés",
+            "footer_light": "Luz de rodapé",
+            "footer_dark": "Rodapé Escuro",
+            "footer_transparent": "Rodapé Transparente",
+            "footer_fixed": "Rodapé fixo",
+            "footer_components": "Componentes de rodapé"
+        },
+        "color_palette": {
+            "main": "Paleta de cores",
+            "color_palette_primary": "paleta principal",
+            "color_palette_danger": "Paleta de perigo",
+            "color_palette_success": "Paleta de sucesso",
+            "color_palette_warning": "Paleta de aviso",
+            "color_palette_info": "Paleta de informações",
+            "color_palette_red": "paleta vermelha",
+            "color_palette_pink": "paleta rosa",
+            "color_palette_purple": "Paleta roxa",
+            "color_palette_deep_purple": "Deep Purple paleta",
+            "color_palette_indigo": "paleta Indigo",
+            "color_palette_blue": "paleta azul",
+            "color_palette_light_blue": "Paleta azul claro",
+            "color_palette_cyan": "paleta ciano",
+            "color_palette_teal": "paleta de cerceta",
+            "color_palette_green": "paleta verde",
+            "color_palette_light_green": "Paleta verde claro",
+            "color_palette_lime": "paleta de limão",
+            "color_palette_yellow": "paleta amarela",
+            "color_palette_amber": "paleta âmbar",
+            "color_palette_orange": "paleta laranja",
+            "color_palette_deep_orange": "Paleta laranja profundo",
+            "color_palette_brown": "paleta marrom",
+            "color_palette_blue_grey": "Paleta de cinza azul",
+            "color_palette_grey": "paleta cinza"
+        },
+        "starter_kit": {
+            "main": "Kit iniciante",
+            "sk_1_column": "1 coluna",
+            "sk_2_columns": "2 colunas",
+            "sk_content": {
+                "main": "3 colunas",
+                "sk_content_left_sidebar": "Barra lateral esquerda",
+                "sk_content_left_sticky_sidebar": "Barra lateral esquerda",
+                "sk_content_right_sidebar": "Barra lateral direita",
+                "sk_content_right_sticky_sidebar": "Barra lateral direita"
+            },
+            "content_detached": {
+                "main": "3 colunas destacadas",
+                "sk_content_detached_left_sidebar": "Barra lateral esquerda separada",
+                "sk_content_detached_sticky_left_sidebar": "Barra lateral esquerda pegajosa destacada",
+                "sk_content_detached_right_sidebar": "Barra lateral direita separada",
+                "sk_content_detached_sticky_right_sidebar": "Barra lateral direita pegajosa destacada"
+            },
+            "sk_fixed_navbar": "Barra de navegação fixa",
+            "sk_fixed_navigation": "Navegação fixa",
+            "sk_fixed_navbar_navigation": "Navegação e navegação fixa",
+            "sk_fixed_navbar_footer": "Navbar fixo e rodapé",
+            "sk_fixed_layout": "Layout fixo",
+            "sk_boxed_layout": "Layout em caixa",
+            "sk_static_layout": "Disposição estática",
+            "sk_light_layout": "Layout de luz",
+            "sk_dark_layout": "Layout escuro",
+            "sk_semi_dark_layout": "Disposição semi-escura"
+        },
+        "changelog": {
+            "main": "Registro de alterações"
+        },
+        "disabled_menu": {
+            "main": "Menu Desativado"
+        },
+        "menu_levels": {
+            "main": "Níveis do menu",
+            "second_level": "Segundo nível",
+            "second_level_child": {
+                "main": "Criança de segundo nível",
+                "third_level": "Terceiro nível",
+                "third_level_child": {
+                    "main": "Criança de terceiro nível",
+                    "fourth_level1": "Quarto nível",
+                    "fourth_level2": "Quarto nível"
+                }
+            }
+        },
+        "project": {
+            "main": "Projeto",
+            "project_summary": "Resumo do projeto",
+            "project_tasks": "Tarefa do projeto",
+            "project_bugs": "Erros do Projeto"
+        },
+        "scrumboard": {
+            "main": "Scrumboard"
+        },
+        "invoice": {
+            "main": "Fatura",
+            "invoice_summary": "Resumo da fatura",
+            "invoice_template": "Modelo de fatura",
+            "invoice_list": "Lista de faturas"
+        },
+        "timelines": {
+            "main": "Linhas de tempo",
+            "timeline_center": "Linhas de tempo Centro",
+            "timeline_left": "Linhas de tempo deixadas",
+            "timeline_right": "Timelines Direito",
+            "timeline_horizontal": "Linhas de tempo horizontais"
+        },
+        "users": {
+            "main": "Usuários",
+            "user_profile": "Perfil do usuário",
+            "user_cards": "Usuários Cartões",
+            "users_contacts": "Lista de Usuários"
+        },
+        "gallery_pages": {
+            "main": "Galeria",
+            "gallery_grid": "Grelha da Galeria",
+            "gallery_grid_with_desc": "Grade da Galeria com Desc",
+            "gallery_masonry": "Galeria de Alvenaria",
+            "gallery_masonry_with_desc": "Galeria de Alvenaria com Desc",
+            "gallery_hover_effects": "Efeitos de Hover"
+        },
+        "search_pages": {
+            "main": "Pesquisa",
+            "search_page": "Página de pesquisa",
+            "search_website": "Pesquisar no site",
+            "search_images": "Pesquisar Imagens",
+            "search_videos": "Pesquisar Vídeos"
+        },
+        "login_register_pages": {
+            "main": "Autenticação",
+            "login_simple": "Login Simples",
+            "login_with_bg": "Entrar com Bg",
+            "login_with_bg_image": "Login com Bg Image",
+            "login_with_navbar": "Fazer login com o Navbar",
+            "login_advanced": "Login Avançado",
+            "register_simple": "Registre-se",
+            "register_with_bg": "Registre-se com Bg",
+            "register_with_bg_image": "Registre-se com Bg Image",
+            "register_with_navbar": "Registre-se com a Navbar",
+            "register_advanced": "Registrar Avançado",
+            "unlock_user": "Desbloquear usuário",
+            "recover_password": "Recuperar senha"
+        },
+        "error_pages": {
+            "main": "Erro",
+            "error_400": "Erro 400",
+            "error_400_with_navbar": "Erro 400 com Navbar",
+            "error_401": "Erro 401",
+            "error_401_with_navbar": "Erro 401 com Navbar",
+            "error_403": "Erro 403",
+            "error_403_with_navbar": "Erro 403 com Navbar",
+            "error_404": "Erro 404",
+            "error_404_with_navbar": "Erro 404 com Navbar",
+            "error_500": "Erro 500",
+            "error_500_with_navbar": "Erro 500 com Navbar"
+        },
+        "other_pages": {
+            "main": "Outras",
+            "coming_soon": {
+                "main": "Em breve",
+                "coming_soon_flat": "Plano",
+                "coming_soon_bg_image": "Imagem Bg",
+                "coming_soon_bg_video": "Bg vídeo"
+            },
+            "under_maintenance": "Manutenção"
+        },
+        "cards": {
+            "main": "Cartões",
+            "card_bootstrap": "Bootstrap",
+            "card_advance": "Avançar",
+            "card_headings": "Cabeçalhos",
+            "card_options": "Opções",
+            "card_actions": "Açao",
+            "card_draggable": "Arrastável"
+        },
+        "content": {
+            "main": "Conteúdo",
+            "content_grid": "Grade",
+            "content_typography": "Tipografia",
+            "content_text_styling": "Estilo do texto",
+            "content_text_utilities": "Utilitários de texto",
+            "content_syntax_highlighter": "Marcador de sintaxe",
+            "content_helper_classes": "Aulas auxiliares"
+        },
+        "components": {
+            "main": "Componentes",
+            "component_alerts": "Alertas",
+            "component_callout": "Chamar",
+            "component_breadcrumb": "Breadcrumb",
+            "components_buttons": {
+                "main": "Dança Botons",
+                "component_buttons_basic": "Botões básicos",
+                "component_buttons_extended": "Botões estendidos"
+            },
+            "component_carousel": "Carrossel",
+            "component_collapse": "Colapso",
+            "component_dropdowns": "Dropdowns",
+            "component_list_group": "Listar grupo",
+            "component_modals": "modos",
+            "component_pagination": "Paginação",
+            "component_navs_component": "Navs Component",
+            "component_tabs_component": "Tabs Component",
+            "component_pills_component": "Pills Component",
+            "component_tooltips": "Dicas de Ferramentas",
+            "component_popovers": "Popovers",
+            "component_tags": "Tags",
+            "component_badges": "emblemas",
+            "component_progress": "Progresso",
+            "component_media_objects": "Objetos de mídia",
+            "component_scrollable": "Scrollable",
+            "component_loaders": "carregadeiras"
+        },
+        "extra_components": {
+            "main": "Componentes extras",
+            "ex_component_sweet_alerts": "Alertas doces",
+            "ex_component_tree_views": "Visualizações da árvore",
+            "ex_component_toastr": "Toastr",
+            "ex_component_ratings": "Avaliações",
+            "ex_component_context_menu": "Menu contextual",
+            "ex_component_noui_slider": "NoUI Slider",
+            "ex_component_date_time_dropper": "Data Hora Conta-gotas",
+            "ex_component_lists": "Listas",
+            "ex_component_toolbar": "Barra de ferramentas",
+            "ex_component_unslider": "Unslider",
+            "ex_component_knob": "Botão",
+            "ex_component_long_press": "imprensa longa",
+            "ex_component_offline": "Offline",
+            "ex_component_zoom": "Zoom"
+        },
+        "icons": {
+            "main": "ícones",
+            "icons_feather": "Pena",
+            "icons_ionicons": "Iônicos",
+            "icons_fps_line": "Ícones de linha FPS",
+            "icons_ico_moon": "Ico Moon",
+            "icons_font_awesome": "Fonte impressionante",
+            "icons_meteocons": "Meteocons",
+            "icons_evil": "Ícones maus",
+            "icons_linecons": "Linecons"
+        },
+        "animation": {
+            "main": "Animação"
+        },
+        "form_elements": {
+            "main": "Elementos do formulário",
+            "form_inputs": "Entradas do formulário",
+            "form_input_groups": "Grupos de entrada",
+            "form_input_grid": "Grelha de entrada",
+            "form_extended_inputs": "Entradas estendidas",
+            "form_checkboxes_radios": "Caixas de seleção e rádios",
+            "form_switch": "Interruptor",
+            "form_select": {
+                "main": "Selecionar",
+                "form_select2": "Selecione2",
+                "form_selectize": "Selecionar",
+                "form_selectivity": "Seletividade",
+                "form_select_box_it": "Selecionar Caixa"
+            },
+            "form_dual_listbox": "Caixa de listagem dupla",
+            "form_tags_input": "Tags Entrada",
+            "form_validation": "Validação"
+        },
+        "form_layouts": {
+            "main": "Layouts de Formulário",
+            "form_layout_basic": "Formulários Básicos",
+            "form_layout_horizontal": "Formulários horizontais",
+            "form_layout_hidden_labels": "Etiquetas ocultas",
+            "form_layout_form_actions": "Ações do Formulário",
+            "form_layout_row_separator": "Separador de linhas",
+            "form_layout_bordered": "Bordado",
+            "form_layout_striped_rows": "linhas listradas",
+            "form_layout_striped_labels": "Etiquetas Listradas"
+        },
+        "form_wizard": {
+            "main": "Assistente de formulários",
+            "form_wizard_circle_style": "Estilo de círculo",
+            "form_wizard_notification_style": "Estilo de Notificação"
+        },
+        "form_repeater": {
+            "main": "Repetidor de formulário"
+        },
+        "bootstrap_tables": {
+            "main": "Tabelas de Bootstrap",
+            "table_basic": "Tabelas Básicas",
+            "table_border": "Borda da tabela",
+            "table_sizing": "Tabela de dimensionamento",
+            "table_styling": "Estilismo de mesa",
+            "table_components": "Componentes da tabela"
+        },
+        "data_tables": {
+            "main": "DataTables",
+            "dt_basic_initialization": "Inicialização básica",
+            "dt_advanced_initialization": "Inicialização avançada",
+            "dt_styling": "estilização",
+            "dt_data_sources": "Fontes de dados",
+            "dt_api": "API"
+        },
+        "datatable_extensions": {
+            "main": "DataTables Ext.",
+            "dt_extensions_autofill": "Preenchimento automático",
+            "datatable_buttons": {
+                "main": "Dança Botons",
+                "dt_extensions_buttons_basic": "Botões básicos",
+                "dt_extensions_buttons_html_5_data_export": "Exportação de dados HTML 5",
+                "dt_extensions_buttons_flash_data_export": "Exportação de dados Flash",
+                "dt_extensions_buttons_column_visibility": "Visibilidade da coluna",
+                "dt_extensions_buttons_print": "Impressão",
+                "dt_extensions_buttons_api": "API"
+            },
+            "dt_extensions_column_reorder": "Reordenar coluna",
+            "dt_extensions_fixed_columns": "Colunas fixas",
+            "dt_extensions_key_table": "Tabela de teclas",
+            "dt_extensions_row_reorder": "Reordenar fila",
+            "dt_extensions_select": "Selecionar",
+            "dt_extensions_fix_header": "Fix Header",
+            "dt_extensions_responsive": "responsivo",
+            "dt_extensions_column_visibility": "Visibilidade da coluna"
+        },
+        "handson_table": {
+            "main": "Handson Table",
+            "handson_table_appearance": "Aparência",
+            "handson_table_rows_columns": "Linhas Colunas",
+            "handson_table_rows_only": "Apenas linhas",
+            "handson_table_columns_only": "Somente Colunas",
+            "handson_table_data_operations": "Operações de dados",
+            "handson_table_cell_features": "Recursos da célula",
+            "handson_table_cell_types": "Tipos de células",
+            "handson_table_integrations": "Integrações",
+            "handson_table_utilities": "Utilitários"
+        },
+        "table_jsgrid": {
+            "main": "jsGrid"
+        },
+        "editors": {
+            "main": "Editores",
+            "editor_quill": "Quill",
+            "editor_ckeditor": "CKEditor",
+            "editor_summernote": "Summernote",
+            "editor_tinymce": "TinyMCE",
+            "code_editor_codemirror": {
+                "main": "Editor de código",
+                "code_editor_codemirror": "CodeMirror",
+                "code_editor_ace": "Ás"
+            }
+        },
+        "pickers": {
+            "main": "Pickers",
+            "pickers_date_time_picker": "Selecionador de data e hora",
+            "pickers_color_picker": "Selecionador de cores"
+        },
+        "jquery_ui": {
+            "main": "jQuery UI",
+            "jquery_ui_interactions": "Interações",
+            "jquery_ui_navigations": "Navegações",
+            "jquery_ui_date_pickers": "Data Pickers",
+            "jquery_ui_autocomplete": "autocompletar",
+            "jquery_ui_buttons_select": "Botões e Selecionar",
+            "jquery_ui_slider_spinner": "Slider & Spinner",
+            "jquery_ui_dialog_tooltip": "Caixa de diálogo e dica de ferramenta"
+        },
+        "add_on_block_ui": {
+            "main": "Bloquear IU"
+        },
+        "add_on_image_cropper": {
+            "main": "Image Cropper"
+        },
+        "add_on_drag_drop": {
+            "main": "Arraste e solte"
+        },
+        "file_uploaders": {
+            "main": "Carregador de arquivo",
+            "file_uploader_dropzone": "Ponto de largada",
+            "file_uploader_jquery": "Upload de arquivo jQuery"
+        },
+        "event_calendars": {
+            "main": "Calendários de eventos",
+            "full_calender": {
+                "main": "Calendário Completo",
+                "full_calender_basic": "Básico",
+                "full_calender_events": "Eventos",
+                "full_calender_advance": "Avançar",
+                "full_calender_extra": "Extra"
+            },
+            "calendars_clndr": "ClnDR"
+        },
+        "internationalization": {
+            "main": "Internacionalização"
+        },
+        "google_charts": {
+            "main": "Gráficos do Google",
+            "google_bar_charts": "Gráficos de barra",
+            "google_line_charts": "gráficos de linhas",
+            "google_pie_charts": "Gráfico de setores",
+            "google_scatter_charts": "Gráficos de dispersão",
+            "google_bubble_charts": "gráficos de bolhas",
+            "google_other_charts": "Outros gráficos"
+        },
+        "echarts": {
+            "main": "Echarts",
+            "echarts_line_area_charts": "Linhas e gráficos de área",
+            "echarts_bar_column_charts": "Gráficos de barras e colunas",
+            "echarts_pie_doughnut_charts": "Gráficos Pie & Donut",
+            "echarts_scatter_charts": "Gráficos de dispersão",
+            "echarts_radar_chord_charts": "Radar e gráficos de acordes",
+            "echarts_funnel_gauges_charts": "Gráficos de Funil & Gauges",
+            "echarts_combination_charts": "Gráficos de combinação",
+            "echarts_advance_charts": "Gráficos avançados"
+        },
+        "chartjs": {
+            "main": "Chartjs",
+            "chartjs_line_charts": "gráficos de linhas",
+            "chartjs_bar_charts": "Gráficos de barra",
+            "chartjs_pie_doughnut_charts": "Gráficos Pie & Donut",
+            "chartjs_scatter_charts": "Gráficos de dispersão",
+            "chartjs_polar_radar_charts": "Gráficos Polar e Radar",
+            "chartjs_advance_charts": "Gráficos avançados"
+        },
+        "d3_charts": {
+            "main": "D3 Gráficos",
+            "d3_line_chart": "Gráfico de linha",
+            "d3_bar_chart": "Gráfico de barras",
+            "d3_pie_chart": "Gráfico circular",
+            "d3_circle_diagrams": "Diagramas de círculo",
+            "d3_tree_chart": "Gráfico de árvore",
+            "d3_other_charts": "Outros gráficos"
+        },
+        "c3_charts": {
+            "main": "Gráficos C3",
+            "c3_line_chart": "Gráfico de linha",
+            "c3_bar_pie_chart": "Gráfico Bar & Pie",
+            "c3_axis_chart": "Gráfico do eixo",
+            "c3_data_chart": "Gráfico de dados",
+            "c3_grid_chart": "Gráfico de grade",
+            "c3_transform_chart": "Transformar gráfico",
+            "c3_other_charts": "Outros gráficos"
+        },
+        "chartist": {
+            "main": "Cartista",
+            "chartist_line_charts": "gráficos de linhas",
+            "chartist_bar_charts": "Gráficos de barra",
+            "chartist_pie_charts": "Gráfico de setores"
+        },
+        "dimple_charts": {
+            "main": "Gráficos de Dimple",
+            "dimple_line_area_chart": "Gráfico de linhas e áreas",
+            "dimple_bar_column_chart": "Gráfico de barras e colunas",
+            "dimple_pie_ring_chart": "Gráfico de torta e anel",
+            "dimple_step_chart": "Tabela de Etapas",
+            "dimple_scatter_chart": "Gráfico de dispersão",
+            "dimple_bubble_chart": "Gráfico de bolhas"
+        },
+        "morris_charts": {
+            "main": "Gráficos Morris"
+        },
+        "flot_charts": {
+            "main": "Flot Charts",
+            "flot_line_charts": "gráficos de linhas",
+            "flot_bar_charts": "Gráficos de barra",
+            "flot_pie_charts": "Gráfico de setores"
+        },
+        "rickshaw_charts": {
+            "main": "Gráficos de Rickshaw"
+        },
+        "maps": {
+            "main": "Mapas",
+            "google_maps": {
+                "main": "google maps",
+                "gmaps_basic_maps": "Mapas",
+                "gmaps_services": "Serviços",
+                "gmaps_overlays": "Sobreposições",
+                "gmaps_routes": "Rotas",
+                "gmaps_static_maps": "Mapas estáticos",
+                "gmaps_utils": "Útil"
+            },
+            "vector_maps": {
+                "main": "Mapas vetoriais",
+                "jquery_mapael": {
+                    "main": "jQuery Mapael",
+                    "vector_maps_mapael_basic": "Mapas Básicos",
+                    "vector_maps_mapael_advance": "Mapas de Advance"
+                },
+                "jvector_maps": "jVector Mapa",
+                "vector_maps_jvq": "Mapa de JQV"
+            }
+        },
+        "support_raise_support": {
+            "main": "Aumente o Apoio"
+        },
+        "support_documentation": {
+            "main": "Documentação"
+        }
+    }
+}

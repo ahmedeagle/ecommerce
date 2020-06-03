@@ -1,0 +1,455 @@
+.bg-gradient-x-white .card-header, .bg-gradient-x-white .card-footer, .bg-gradient-y-white .card-header, .bg-gradient-y-white .card-footer, .bg-gradient-directional-white .card-header, .bg-gradient-directional-white .card-footer, .bg-gradient-radial-white .card-header, .bg-gradient-radial-white .card-footer, .bg-gradient-striped-white .card-header, .bg-gradient-striped-white .card-footer, .bg-gradient-x2-white .card-header, .bg-gradient-x2-white .card-footer, .bg-gradient-y2-white .card-header, .bg-gradient-y2-white .card-footer {
+  background-color: transparent; }
+
+.bg-gradient-x-black .card-header, .bg-gradient-x-black .card-footer, .bg-gradient-y-black .card-header, .bg-gradient-y-black .card-footer, .bg-gradient-directional-black .card-header, .bg-gradient-directional-black .card-footer, .bg-gradient-radial-black .card-header, .bg-gradient-radial-black .card-footer, .bg-gradient-striped-black .card-header, .bg-gradient-striped-black .card-footer, .bg-gradient-x2-black .card-header, .bg-gradient-x2-black .card-footer, .bg-gradient-y2-black .card-header, .bg-gradient-y2-black .card-footer {
+  background-color: transparent; }
+
+.bg-gradient-x-primary {
+  background-image: linear-gradient(to right, #535BE2 0%, #949AEF 100%);
+  background-repeat: repeat-x; }
+
+.bg-gradient-y-primary {
+  background-image: linear-gradient(to bottom, #535BE2 0%, #949AEF 100%);
+  background-repeat: repeat-x; }
+
+.bg-gradient-directional-primary {
+  background-image: linear-gradient(45deg, #535BE2, #949AEF);
+  background-repeat: repeat-x; }
+
+.bg-gradient-x2-primary {
+  background-image: linear-gradient(to right, #949AEF, #666EE8 50%, #B3B7F4);
+  background-repeat: no-repeat; }
+
+.bg-gradient-y2-primary {
+  background-image: linear-gradient(#949AEF, #666EE8 50%, #B3B7F4);
+  background-repeat: no-repeat; }
+
+.bg-gradient-radial-primary {
+  background-image: radial-gradient(circle, #535BE2, #949AEF);
+  background-repeat: no-repeat; }
+
+.bg-gradient-striped-primary {
+  background-image: linear-gradient(45deg, #B3B7F4 25%, transparent 25%, transparent 50%, #B3B7F4 50%, #B3B7F4 75%, transparent 75%, transparent); }
+
+.bg-gradient-x-primary .card-header, .bg-gradient-x-primary .card-footer, .bg-gradient-y-primary .card-header, .bg-gradient-y-primary .card-footer, .bg-gradient-directional-primary .card-header, .bg-gradient-directional-primary .card-footer, .bg-gradient-radial-primary .card-header, .bg-gradient-radial-primary .card-footer, .bg-gradient-striped-primary .card-header, .bg-gradient-striped-primary .card-footer, .bg-gradient-x2-primary .card-header, .bg-gradient-x2-primary .card-footer, .bg-gradient-y2-primary .card-header, .bg-gradient-y2-primary .card-footer {
+  background-color: transparent; }
+
+.bg-gradient-x-success {
+  background-image: linear-gradient(to right, #1EC481 0%, #69DEB4 100%);
+  background-repeat: repeat-x; }
+
+.bg-gradient-y-success {
+  background-image: linear-gradient(to bottom, #1EC481 0%, #69DEB4 100%);
+  background-repeat: repeat-x; }
+
+.bg-gradient-directional-success {
+  background-image: linear-gradient(45deg, #1EC481, #69DEB4);
+  background-repeat: repeat-x; }
+
+.bg-gradient-x2-success {
+  background-image: linear-gradient(to right, #69DEB4, #28D094 50%, #94E8CA);
+  background-repeat: no-repeat; }
+
+.bg-gradient-y2-success {
+  background-image: linear-gradient(#69DEB4, #28D094 50%, #94E8CA);
+  background-repeat: no-repeat; }
+
+.bg-gradient-radial-success {
+  background-image: radial-gradient(circle, #1EC481, #69DEB4);
+  background-repeat: no-repeat; }
+
+.bg-gradient-striped-success {
+  background-image: linear-gradient(45deg, #94E8CA 25%, transparent 25%, transparent 50%, #94E8CA 50%, #94E8CA 75%, transparent 75%, transparent); }
+
+.bg-gradient-x-success .card-header, .bg-gradient-x-success .card-footer, .bg-gradient-y-success .card-header, .bg-gradient-y-success .card-footer, .bg-gradient-directional-success .card-header, .bg-gradient-directional-success .card-footer, .bg-gradient-radial-success .card-header, .bg-gradient-radial-success .card-footer, .bg-gradient-striped-success .card-header, .bg-gradient-striped-success .card-footer, .bg-gradient-x2-success .card-header, .bg-gradient-x2-success .card-footer, .bg-gradient-y2-success .card-header, .bg-gradient-y2-success .card-footer {
+  background-color: transparent; }
+
+.bg-gradient-x-info {
+  background-image: linear-gradient(to right, #168DEE 0%, #62BCF6 100%);
+  background-repeat: repeat-x; }
+
+.bg-gradient-y-info {
+  background-image: linear-gradient(to bottom, #168DEE 0%, #62BCF6 100%);
+  background-repeat: repeat-x; }
+
+.bg-gradient-directional-info {
+  background-image: linear-gradient(45deg, #168DEE, #62BCF6);
+  background-repeat: repeat-x; }
+
+.bg-gradient-x2-info {
+  background-image: linear-gradient(to right, #62BCF6, #1E9FF2 50%, #8FCFF9);
+  background-repeat: no-repeat; }
+
+.bg-gradient-y2-info {
+  background-image: linear-gradient(#62BCF6, #1E9FF2 50%, #8FCFF9);
+  background-repeat: no-repeat; }
+
+.bg-gradient-radial-info {
+  background-image: radial-gradient(circle, #168DEE, #62BCF6);
+  background-repeat: no-repeat; }
+
+.bg-gradient-striped-info {
+  background-image: linear-gradient(45deg, #8FCFF9 25%, transparent 25%, transparent 50%, #8FCFF9 50%, #8FCFF9 75%, transparent 75%, transparent); }
+
+.bg-gradient-x-info .card-header, .bg-gradient-x-info .card-footer, .bg-gradient-y-info .card-header, .bg-gradient-y-info .card-footer, .bg-gradient-directional-info .card-header, .bg-gradient-directional-info .card-footer, .bg-gradient-radial-info .card-header, .bg-gradient-radial-info .card-footer, .bg-gradient-striped-info .card-header, .bg-gradient-striped-info .card-footer, .bg-gradient-x2-info .card-header, .bg-gradient-x2-info .card-footer, .bg-gradient-y2-info .card-header, .bg-gradient-y2-info .card-footer {
+  background-color: transparent; }
+
+.bg-gradient-x-warning {
+  background-image: linear-gradient(to right, #FF7E39 0%, #FFB280 100%);
+  background-repeat: repeat-x; }
+
+.bg-gradient-y-warning {
+  background-image: linear-gradient(to bottom, #FF7E39 0%, #FFB280 100%);
+  background-repeat: repeat-x; }
+
+.bg-gradient-directional-warning {
+  background-image: linear-gradient(45deg, #FF7E39, #FFB280);
+  background-repeat: repeat-x; }
+
+.bg-gradient-x2-warning {
+  background-image: linear-gradient(to right, #FFB280, #FF9149 50%, #FFC8A4);
+  background-repeat: no-repeat; }
+
+.bg-gradient-y2-warning {
+  background-image: linear-gradient(#FFB280, #FF9149 50%, #FFC8A4);
+  background-repeat: no-repeat; }
+
+.bg-gradient-radial-warning {
+  background-image: radial-gradient(circle, #FF7E39, #FFB280);
+  background-repeat: no-repeat; }
+
+.bg-gradient-striped-warning {
+  background-image: linear-gradient(45deg, #FFC8A4 25%, transparent 25%, transparent 50%, #FFC8A4 50%, #FFC8A4 75%, transparent 75%, transparent); }
+
+.bg-gradient-x-warning .card-header, .bg-gradient-x-warning .card-footer, .bg-gradient-y-warning .card-header, .bg-gradient-y-warning .card-footer, .bg-gradient-directional-warning .card-header, .bg-gradient-directional-warning .card-footer, .bg-gradient-radial-warning .card-header, .bg-gradient-radial-warning .card-footer, .bg-gradient-striped-warning .card-header, .bg-gradient-striped-warning .card-footer, .bg-gradient-x2-warning .card-header, .bg-gradient-x2-warning .card-footer, .bg-gradient-y2-warning .card-header, .bg-gradient-y2-warning .card-footer {
+  background-color: transparent; }
+
+.bg-gradient-x-danger {
+  background-image: linear-gradient(to right, #FF394F 0%, #FF8090 100%);
+  background-repeat: repeat-x; }
+
+.bg-gradient-y-danger {
+  background-image: linear-gradient(to bottom, #FF394F 0%, #FF8090 100%);
+  background-repeat: repeat-x; }
+
+.bg-gradient-directional-danger {
+  background-image: linear-gradient(45deg, #FF394F, #FF8090);
+  background-repeat: repeat-x; }
+
+.bg-gradient-x2-danger {
+  background-image: linear-gradient(to right, #FF8090, #FF4961 50%, #FFA4B0);
+  background-repeat: no-repeat; }
+
+.bg-gradient-y2-danger {
+  background-image: linear-gradient(#FF8090, #FF4961 50%, #FFA4B0);
+  background-repeat: no-repeat; }
+
+.bg-gradient-radial-danger {
+  background-image: radial-gradient(circle, #FF394F, #FF8090);
+  background-repeat: no-repeat; }
+
+.bg-gradient-striped-danger {
+  background-image: linear-gradient(45deg, #FFA4B0 25%, transparent 25%, transparent 50%, #FFA4B0 50%, #FFA4B0 75%, transparent 75%, transparent); }
+
+.bg-gradient-x-danger .card-header, .bg-gradient-x-danger .card-footer, .bg-gradient-y-danger .card-header, .bg-gradient-y-danger .card-footer, .bg-gradient-directional-danger .card-header, .bg-gradient-directional-danger .card-footer, .bg-gradient-radial-danger .card-header, .bg-gradient-radial-danger .card-footer, .bg-gradient-striped-danger .card-header, .bg-gradient-striped-danger .card-footer, .bg-gradient-x2-danger .card-header, .bg-gradient-x2-danger .card-footer, .bg-gradient-y2-danger .card-header, .bg-gradient-y2-danger .card-footer {
+  background-color: transparent; }
+
+.bg-gradient-x-red {
+  background-image: linear-gradient(to right, #D32F2F 0%, #E57373 100%);
+  background-repeat: repeat-x; }
+
+.bg-gradient-y-red {
+  background-image: linear-gradient(to bottom, #D32F2F 0%, #E57373 100%);
+  background-repeat: repeat-x; }
+
+.bg-gradient-directional-red {
+  background-image: linear-gradient(45deg, #D32F2F, #E57373);
+  background-repeat: repeat-x; }
+
+.bg-gradient-x2-red {
+  background-image: linear-gradient(to right, #E57373, #F44336 50%, #EF9A9A);
+  background-repeat: no-repeat; }
+
+.bg-gradient-y2-red {
+  background-image: linear-gradient(#E57373, #F44336 50%, #EF9A9A);
+  background-repeat: no-repeat; }
+
+.bg-gradient-radial-red {
+  background-image: radial-gradient(circle, #D32F2F, #E57373);
+  background-repeat: no-repeat; }
+
+.bg-gradient-striped-red {
+  background-image: linear-gradient(45deg, #EF9A9A 25%, transparent 25%, transparent 50%, #EF9A9A 50%, #EF9A9A 75%, transparent 75%, transparent); }
+
+.bg-gradient-x-red .card-header, .bg-gradient-x-red .card-footer, .bg-gradient-y-red .card-header, .bg-gradient-y-red .card-footer, .bg-gradient-directional-red .card-header, .bg-gradient-directional-red .card-footer, .bg-gradient-radial-red .card-header, .bg-gradient-radial-red .card-footer, .bg-gradient-striped-red .card-header, .bg-gradient-striped-red .card-footer, .bg-gradient-x2-red .card-header, .bg-gradient-x2-red .card-footer, .bg-gradient-y2-red .card-header, .bg-gradient-y2-red .card-footer {
+  background-color: transparent; }
+
+.bg-gradient-x-pink {
+  background-image: linear-gradient(to right, #C2185B 0%, #F06292 100%);
+  background-repeat: repeat-x; }
+
+.bg-gradient-y-pink {
+  background-image: linear-gradient(to bottom, #C2185B 0%, #F06292 100%);
+  background-repeat: repeat-x; }
+
+.bg-gradient-directional-pink {
+  background-image: linear-gradient(45deg, #C2185B, #F06292);
+  background-repeat: repeat-x; }
+
+.bg-gradient-x2-pink {
+  background-image: linear-gradient(to right, #F06292, #E91E63 50%, #F48FB1);
+  background-repeat: no-repeat; }
+
+.bg-gradient-y2-pink {
+  background-image: linear-gradient(#F06292, #E91E63 50%, #F48FB1);
+  background-repeat: no-repeat; }
+
+.bg-gradient-radial-pink {
+  background-image: radial-gradient(circle, #C2185B, #F06292);
+  background-repeat: no-repeat; }
+
+.bg-gradient-striped-pink {
+  background-image: linear-gradient(45deg, #F48FB1 25%, transparent 25%, transparent 50%, #F48FB1 50%, #F48FB1 75%, transparent 75%, transparent); }
+
+.bg-gradient-x-pink .card-header, .bg-gradient-x-pink .card-footer, .bg-gradient-y-pink .card-header, .bg-gradient-y-pink .card-footer, .bg-gradient-directional-pink .card-header, .bg-gradient-directional-pink .card-footer, .bg-gradient-radial-pink .card-header, .bg-gradient-radial-pink .card-footer, .bg-gradient-striped-pink .card-header, .bg-gradient-striped-pink .card-footer, .bg-gradient-x2-pink .card-header, .bg-gradient-x2-pink .card-footer, .bg-gradient-y2-pink .card-header, .bg-gradient-y2-pink .card-footer {
+  background-color: transparent; }
+
+.bg-gradient-x-purple {
+  background-image: linear-gradient(to right, #7B1FA2 0%, #BA68C8 100%);
+  background-repeat: repeat-x; }
+
+.bg-gradient-y-purple {
+  background-image: linear-gradient(to bottom, #7B1FA2 0%, #BA68C8 100%);
+  background-repeat: repeat-x; }
+
+.bg-gradient-directional-purple {
+  background-image: linear-gradient(45deg, #7B1FA2, #BA68C8);
+  background-repeat: repeat-x; }
+
+.bg-gradient-x2-purple {
+  background-image: linear-gradient(to right, #BA68C8, #9C27B0 50%, #CE93D8);
+  background-repeat: no-repeat; }
+
+.bg-gradient-y2-purple {
+  background-image: linear-gradient(#BA68C8, #9C27B0 50%, #CE93D8);
+  background-repeat: no-repeat; }
+
+.bg-gradient-radial-purple {
+  background-image: radial-gradient(circle, #7B1FA2, #BA68C8);
+  background-repeat: no-repeat; }
+
+.bg-gradient-striped-purple {
+  background-image: linear-gradient(45deg, #CE93D8 25%, transparent 25%, transparent 50%, #CE93D8 50%, #CE93D8 75%, transparent 75%, transparent); }
+
+.bg-gradient-x-purple .card-header, .bg-gradient-x-purple .card-footer, .bg-gradient-y-purple .card-header, .bg-gradient-y-purple .card-footer, .bg-gradient-directional-purple .card-header, .bg-gradient-directional-purple .card-footer, .bg-gradient-radial-purple .card-header, .bg-gradient-radial-purple .card-footer, .bg-gradient-striped-purple .card-header, .bg-gradient-striped-purple .card-footer, .bg-gradient-x2-purple .card-header, .bg-gradient-x2-purple .card-footer, .bg-gradient-y2-purple .card-header, .bg-gradient-y2-purple .card-footer {
+  background-color: transparent; }
+
+.bg-gradient-x-blue {
+  background-image: linear-gradient(to right, #1976D2 0%, #64B5F6 100%);
+  background-repeat: repeat-x; }
+
+.bg-gradient-y-blue {
+  background-image: linear-gradient(to bottom, #1976D2 0%, #64B5F6 100%);
+  background-repeat: repeat-x; }
+
+.bg-gradient-directional-blue {
+  background-image: linear-gradient(45deg, #1976D2, #64B5F6);
+  background-repeat: repeat-x; }
+
+.bg-gradient-x2-blue {
+  background-image: linear-gradient(to right, #64B5F6, #2196F3 50%, #90CAF9);
+  background-repeat: no-repeat; }
+
+.bg-gradient-y2-blue {
+  background-image: linear-gradient(#64B5F6, #2196F3 50%, #90CAF9);
+  background-repeat: no-repeat; }
+
+.bg-gradient-radial-blue {
+  background-image: radial-gradient(circle, #1976D2, #64B5F6);
+  background-repeat: no-repeat; }
+
+.bg-gradient-striped-blue {
+  background-image: linear-gradient(45deg, #90CAF9 25%, transparent 25%, transparent 50%, #90CAF9 50%, #90CAF9 75%, transparent 75%, transparent); }
+
+.bg-gradient-x-blue .card-header, .bg-gradient-x-blue .card-footer, .bg-gradient-y-blue .card-header, .bg-gradient-y-blue .card-footer, .bg-gradient-directional-blue .card-header, .bg-gradient-directional-blue .card-footer, .bg-gradient-radial-blue .card-header, .bg-gradient-radial-blue .card-footer, .bg-gradient-striped-blue .card-header, .bg-gradient-striped-blue .card-footer, .bg-gradient-x2-blue .card-header, .bg-gradient-x2-blue .card-footer, .bg-gradient-y2-blue .card-header, .bg-gradient-y2-blue .card-footer {
+  background-color: transparent; }
+
+.bg-gradient-x-cyan {
+  background-image: linear-gradient(to right, #0097A7 0%, #4DD0E1 100%);
+  background-repeat: repeat-x; }
+
+.bg-gradient-y-cyan {
+  background-image: linear-gradient(to bottom, #0097A7 0%, #4DD0E1 100%);
+  background-repeat: repeat-x; }
+
+.bg-gradient-directional-cyan {
+  background-image: linear-gradient(45deg, #0097A7, #4DD0E1);
+  background-repeat: repeat-x; }
+
+.bg-gradient-x2-cyan {
+  background-image: linear-gradient(to right, #4DD0E1, #00BCD4 50%, #80DEEA);
+  background-repeat: no-repeat; }
+
+.bg-gradient-y2-cyan {
+  background-image: linear-gradient(#4DD0E1, #00BCD4 50%, #80DEEA);
+  background-repeat: no-repeat; }
+
+.bg-gradient-radial-cyan {
+  background-image: radial-gradient(circle, #0097A7, #4DD0E1);
+  background-repeat: no-repeat; }
+
+.bg-gradient-striped-cyan {
+  background-image: linear-gradient(45deg, #80DEEA 25%, transparent 25%, transparent 50%, #80DEEA 50%, #80DEEA 75%, transparent 75%, transparent); }
+
+.bg-gradient-x-cyan .card-header, .bg-gradient-x-cyan .card-footer, .bg-gradient-y-cyan .card-header, .bg-gradient-y-cyan .card-footer, .bg-gradient-directional-cyan .card-header, .bg-gradient-directional-cyan .card-footer, .bg-gradient-radial-cyan .card-header, .bg-gradient-radial-cyan .card-footer, .bg-gradient-striped-cyan .card-header, .bg-gradient-striped-cyan .card-footer, .bg-gradient-x2-cyan .card-header, .bg-gradient-x2-cyan .card-footer, .bg-gradient-y2-cyan .card-header, .bg-gradient-y2-cyan .card-footer {
+  background-color: transparent; }
+
+.bg-gradient-x-teal {
+  background-image: linear-gradient(to right, #00796B 0%, #4DB6AC 100%);
+  background-repeat: repeat-x; }
+
+.bg-gradient-y-teal {
+  background-image: linear-gradient(to bottom, #00796B 0%, #4DB6AC 100%);
+  background-repeat: repeat-x; }
+
+.bg-gradient-directional-teal {
+  background-image: linear-gradient(45deg, #00796B, #4DB6AC);
+  background-repeat: repeat-x; }
+
+.bg-gradient-x2-teal {
+  background-image: linear-gradient(to right, #4DB6AC, #009688 50%, #80CBC4);
+  background-repeat: no-repeat; }
+
+.bg-gradient-y2-teal {
+  background-image: linear-gradient(#4DB6AC, #009688 50%, #80CBC4);
+  background-repeat: no-repeat; }
+
+.bg-gradient-radial-teal {
+  background-image: radial-gradient(circle, #00796B, #4DB6AC);
+  background-repeat: no-repeat; }
+
+.bg-gradient-striped-teal {
+  background-image: linear-gradient(45deg, #80CBC4 25%, transparent 25%, transparent 50%, #80CBC4 50%, #80CBC4 75%, transparent 75%, transparent); }
+
+.bg-gradient-x-teal .card-header, .bg-gradient-x-teal .card-footer, .bg-gradient-y-teal .card-header, .bg-gradient-y-teal .card-footer, .bg-gradient-directional-teal .card-header, .bg-gradient-directional-teal .card-footer, .bg-gradient-radial-teal .card-header, .bg-gradient-radial-teal .card-footer, .bg-gradient-striped-teal .card-header, .bg-gradient-striped-teal .card-footer, .bg-gradient-x2-teal .card-header, .bg-gradient-x2-teal .card-footer, .bg-gradient-y2-teal .card-header, .bg-gradient-y2-teal .card-footer {
+  background-color: transparent; }
+
+.bg-gradient-x-yellow {
+  background-image: linear-gradient(to right, #FBC02D 0%, #FFF176 100%);
+  background-repeat: repeat-x; }
+
+.bg-gradient-y-yellow {
+  background-image: linear-gradient(to bottom, #FBC02D 0%, #FFF176 100%);
+  background-repeat: repeat-x; }
+
+.bg-gradient-directional-yellow {
+  background-image: linear-gradient(45deg, #FBC02D, #FFF176);
+  background-repeat: repeat-x; }
+
+.bg-gradient-x2-yellow {
+  background-image: linear-gradient(to right, #FFF176, #FFEB3B 50%, #FFF59D);
+  background-repeat: no-repeat; }
+
+.bg-gradient-y2-yellow {
+  background-image: linear-gradient(#FFF176, #FFEB3B 50%, #FFF59D);
+  background-repeat: no-repeat; }
+
+.bg-gradient-radial-yellow {
+  background-image: radial-gradient(circle, #FBC02D, #FFF176);
+  background-repeat: no-repeat; }
+
+.bg-gradient-striped-yellow {
+  background-image: linear-gradient(45deg, #FFF59D 25%, transparent 25%, transparent 50%, #FFF59D 50%, #FFF59D 75%, transparent 75%, transparent); }
+
+.bg-gradient-x-yellow .card-header, .bg-gradient-x-yellow .card-footer, .bg-gradient-y-yellow .card-header, .bg-gradient-y-yellow .card-footer, .bg-gradient-directional-yellow .card-header, .bg-gradient-directional-yellow .card-footer, .bg-gradient-radial-yellow .card-header, .bg-gradient-radial-yellow .card-footer, .bg-gradient-striped-yellow .card-header, .bg-gradient-striped-yellow .card-footer, .bg-gradient-x2-yellow .card-header, .bg-gradient-x2-yellow .card-footer, .bg-gradient-y2-yellow .card-header, .bg-gradient-y2-yellow .card-footer {
+  background-color: transparent; }
+
+.bg-gradient-x-amber {
+  background-image: linear-gradient(to right, #FFA000 0%, #FFD54F 100%);
+  background-repeat: repeat-x; }
+
+.bg-gradient-y-amber {
+  background-image: linear-gradient(to bottom, #FFA000 0%, #FFD54F 100%);
+  background-repeat: repeat-x; }
+
+.bg-gradient-directional-amber {
+  background-image: linear-gradient(45deg, #FFA000, #FFD54F);
+  background-repeat: repeat-x; }
+
+.bg-gradient-x2-amber {
+  background-image: linear-gradient(to right, #FFD54F, #FFC107 50%, #FFE082);
+  background-repeat: no-repeat; }
+
+.bg-gradient-y2-amber {
+  background-image: linear-gradient(#FFD54F, #FFC107 50%, #FFE082);
+  background-repeat: no-repeat; }
+
+.bg-gradient-radial-amber {
+  background-image: radial-gradient(circle, #FFA000, #FFD54F);
+  background-repeat: no-repeat; }
+
+.bg-gradient-striped-amber {
+  background-image: linear-gradient(45deg, #FFE082 25%, transparent 25%, transparent 50%, #FFE082 50%, #FFE082 75%, transparent 75%, transparent); }
+
+.bg-gradient-x-amber .card-header, .bg-gradient-x-amber .card-footer, .bg-gradient-y-amber .card-header, .bg-gradient-y-amber .card-footer, .bg-gradient-directional-amber .card-header, .bg-gradient-directional-amber .card-footer, .bg-gradient-radial-amber .card-header, .bg-gradient-radial-amber .card-footer, .bg-gradient-striped-amber .card-header, .bg-gradient-striped-amber .card-footer, .bg-gradient-x2-amber .card-header, .bg-gradient-x2-amber .card-footer, .bg-gradient-y2-amber .card-header, .bg-gradient-y2-amber .card-footer {
+  background-color: transparent; }
+
+.bg-gradient-x-blue-grey {
+  background-image: linear-gradient(to right, #455A64 0%, #90A4AE 100%);
+  background-repeat: repeat-x; }
+
+.bg-gradient-y-blue-grey {
+  background-image: linear-gradient(to bottom, #455A64 0%, #90A4AE 100%);
+  background-repeat: repeat-x; }
+
+.bg-gradient-directional-blue-grey {
+  background-image: linear-gradient(45deg, #455A64, #90A4AE);
+  background-repeat: repeat-x; }
+
+.bg-gradient-x2-blue-grey {
+  background-image: linear-gradient(to right, #90A4AE, #607D8B 50%, #B0BEC5);
+  background-repeat: no-repeat; }
+
+.bg-gradient-y2-blue-grey {
+  background-image: linear-gradient(#90A4AE, #607D8B 50%, #B0BEC5);
+  background-repeat: no-repeat; }
+
+.bg-gradient-radial-blue-grey {
+  background-image: radial-gradient(circle, #455A64, #90A4AE);
+  background-repeat: no-repeat; }
+
+.bg-gradient-striped-blue-grey {
+  background-image: linear-gradient(45deg, #B0BEC5 25%, transparent 25%, transparent 50%, #B0BEC5 50%, #B0BEC5 75%, transparent 75%, transparent); }
+
+.bg-gradient-x-blue-grey .card-header, .bg-gradient-x-blue-grey .card-footer, .bg-gradient-y-blue-grey .card-header, .bg-gradient-y-blue-grey .card-footer, .bg-gradient-directional-blue-grey .card-header, .bg-gradient-directional-blue-grey .card-footer, .bg-gradient-radial-blue-grey .card-header, .bg-gradient-radial-blue-grey .card-footer, .bg-gradient-striped-blue-grey .card-header, .bg-gradient-striped-blue-grey .card-footer, .bg-gradient-x2-blue-grey .card-header, .bg-gradient-x2-blue-grey .card-footer, .bg-gradient-y2-blue-grey .card-header, .bg-gradient-y2-blue-grey .card-footer {
+  background-color: transparent; }
+
+.bg-gradient-x-grey-blue {
+  background-image: linear-gradient(to right, #404E67 0%, #6F85AD 100%);
+  background-repeat: repeat-x; }
+
+.bg-gradient-y-grey-blue {
+  background-image: linear-gradient(to bottom, #404E67 0%, #6F85AD 100%);
+  background-repeat: repeat-x; }
+
+.bg-gradient-directional-grey-blue {
+  background-image: linear-gradient(45deg, #404E67, #6F85AD);
+  background-repeat: repeat-x; }
+
+.bg-gradient-x2-grey-blue {
+  background-image: linear-gradient(to right, #6F85AD, #1B2942 50%, #B0BEC5);
+  background-repeat: no-repeat; }
+
+.bg-gradient-y2-grey-blue {
+  background-image: linear-gradient(#6F85AD, #1B2942 50%, #B0BEC5);
+  background-repeat: no-repeat; }
+
+.bg-gradient-radial-grey-blue {
+  background-image: radial-gradient(circle, #404E67, #6F85AD);
+  background-repeat: no-repeat; }
+
+.bg-gradient-striped-grey-blue {
+  background-image: linear-gradient(45deg, #B0BEC5 25%, transparent 25%, transparent 50%, #B0BEC5 50%, #B0BEC5 75%, transparent 75%, transparent); }
+
+.bg-gradient-x-grey-blue .card-header, .bg-gradient-x-grey-blue .card-footer, .bg-gradient-y-grey-blue .card-header, .bg-gradient-y-grey-blue .card-footer, .bg-gradient-directional-grey-blue .card-header, .bg-gradient-directional-grey-blue .card-footer, .bg-gradient-radial-grey-blue .card-header, .bg-gradient-radial-grey-blue .card-footer, .bg-gradient-striped-grey-blue .card-header, .bg-gradient-striped-grey-blue .card-footer, .bg-gradient-x2-grey-blue .card-header, .bg-gradient-x2-grey-blue .card-footer, .bg-gradient-y2-grey-blue .card-header, .bg-gradient-y2-grey-blue .card-footer {
+  background-color: transparent; }

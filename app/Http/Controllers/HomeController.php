@@ -13,7 +13,30 @@ class HomeController extends Controller
      */
     public function __construct()
     {
-        $this->middleware('auth');
+      //  $this->middleware('auth');
+    }
+
+
+    public function sendSMS($to, $message){
+        $accountSid = env('TWILIO_ACCOUNT_SID');
+        $authToken = env('TWILIO_AUTH_TOKEN');
+        $twilioNumber = env('TWILIO_NUMBER');
+        try {
+            $client = new Client($accountSid, $authToken);
+            $client->messages->create(
+                $to, [
+                    "body" => $message,
+                    "from" => $twilioNumber,
+                ]
+            );
+            Log::info('Message sent to ' . $twilioNumber);
+        } catch (TwilioException $e) {
+            dd($e);
+            Log::error(
+                'Could not send SMS notification.' .
+                ' Twilio replied with: ' . $e
+            );
+        }
     }
 
     /**
