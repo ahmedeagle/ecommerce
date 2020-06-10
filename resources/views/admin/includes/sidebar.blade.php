@@ -16,7 +16,7 @@
                     <li class="active"><a class="menu-item" href="{{route('admin.languages')}}"
                                           data-i18n="nav.dash.ecommerce"> عرض الكل </a>
                     </li>
-                    <li><a class="menu-item" href="" data-i18n="nav.dash.crypto">أضافة
+                    <li><a class="menu-item" href="{{route('admin.languages.create')}}" data-i18n="nav.dash.crypto">أضافة
                             لغة جديده </a>
                     </li>
                 </ul>
