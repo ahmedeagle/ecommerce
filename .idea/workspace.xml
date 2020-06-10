@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="caece16e-ee7a-46c8-bb11-50df2823ab5e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/app/Models/MainCategory.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/admin/languages/index.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/includes/sidebar.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/includes/sidebar.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/admin.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/admin.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -126,20 +130,20 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/resources/views/admin/includes/alerts" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/resources/views/admin/languages" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\wamp64\www\ecommerce\resources\views\admin\includes\alerts" />
-      <recent name="C:\wamp64\www\ecommerce\resources\views\admin\Auth" />
-      <recent name="C:\wamp64\www\ecommerce\resources\views\layouts" />
-      <recent name="C:\wamp64\www\ecommerce\resources\views\admin" />
-      <recent name="C:\wamp64\www\ecommerce\routes" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\wamp64\www\ecommerce\resources\views\front" />
       <recent name="C:\wamp64\www\ecommerce" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\wamp64\www\ecommerce\resources\views\admin\languages" />
+      <recent name="C:\wamp64\www\ecommerce\app\Models" />
+      <recent name="C:\wamp64\www\ecommerce\resources\views\admin\includes\alerts" />
+      <recent name="C:\wamp64\www\ecommerce\resources\views\admin\Auth" />
+      <recent name="C:\wamp64\www\ecommerce\resources\views\layouts" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -177,6 +181,8 @@
       <workItem from="1590991408679" duration="439000" />
       <workItem from="1591121144045" duration="5813000" />
       <workItem from="1591201241765" duration="7576000" />
+      <workItem from="1591247933168" duration="338000" />
+      <workItem from="1591811232976" duration="3279000" />
     </task>
     <servers />
   </component>

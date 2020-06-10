@@ -13,15 +13,24 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::group(['namespace'=>'Admin','middleware' => 'auth:admin'], function() {
-    Route::get('/', 'DashboardController@index') -> name('admin.dashboard');
+
+define('PAGINATION_COUNT',10);
+Route::group(['namespace' => 'Admin', 'middleware' => 'auth:admin'], function () {
+    Route::get('/', 'DashboardController@index')->name('admin.dashboard');
+
+    ######################### Begin Languages Route ########################
+    Route::group(['prefix' => 'languages'], function () {
+
+        Route::get('/','LanguagesController@index') -> name('admin.languages');
+
+    });
+    ######################### End Languages Route ########################
 });
 
 
-
-Route::group(['namespace'=>'Admin','middleware' => 'guest:admin'], function(){
-     Route::get('login' ,'LoginController@getLogin')-> name('get.admin.login');
-     Route::post('login' ,'LoginController@login') -> name('admin.login');
+Route::group(['namespace' => 'Admin', 'middleware' => 'guest:admin'], function () {
+    Route::get('login', 'LoginController@getLogin')->name('get.admin.login');
+    Route::post('login', 'LoginController@login')->name('admin.login');
 });
 
 
