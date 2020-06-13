@@ -24,6 +24,7 @@ class LanguagesController extends Controller
     public function store(LanguageRequest $request)
     {
         try {
+
             Language::create($request->except(['_token']));
             return redirect()->route('admin.languages')->with(['success' => 'تم حفظ اللغة بنجاح']);
         } catch (\Exception $ex) {
@@ -49,7 +50,12 @@ class LanguagesController extends Controller
             if (!$language) {
                 return redirect()->route('admin.languages.edit', $id)->with(['error' => 'هذه اللغة غير موجوده']);
             }
-            $language -> update($request -> except('_token'));
+
+
+            if (!$request->has('active'))
+                $request->request->add(['active' => 0]);
+
+            $language->update($request->except('_token'));
 
             return redirect()->route('admin.languages')->with(['success' => 'تم تحديث اللغة بنجاح']);
 
@@ -58,14 +64,15 @@ class LanguagesController extends Controller
         }
     }
 
-    public function  destroy($id){
+    public function destroy($id)
+    {
 
         try {
             $language = Language::find($id);
             if (!$language) {
                 return redirect()->route('admin.languages', $id)->with(['error' => 'هذه اللغة غير موجوده']);
             }
-            $language -> delete();
+            $language->delete();
 
             return redirect()->route('admin.languages')->with(['success' => 'تم حذف اللغة بنجاح']);
 

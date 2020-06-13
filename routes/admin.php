@@ -32,6 +32,21 @@ Route::group(['namespace' => 'Admin', 'middleware' => 'auth:admin'], function ()
 
     });
     ######################### End Languages Route ########################
+
+
+    ######################### Begin Main Categoris Routes ########################
+    Route::group(['prefix' => 'main_categories'], function () {
+        Route::get('/','MainCategoriesController@index') -> name('admin.maincategories');
+        Route::get('create','MainCategoriesController@create') -> name('admin.maincategories.create');
+        Route::post('store','MainCategoriesController@store') -> name('admin.maincategories.store');
+        Route::get('edit/{id}','MainCategoriesController@edit') -> name('admin.maincategories.edit');
+        Route::post('update/{id}','MainCategoriesController@update') -> name('admin.maincategories.update');
+        Route::get('delete/{id}','LanguagesController@destroy') -> name('admin.maincategories.delete');
+    });
+    ######################### End  Main Categoris Routes  ########################
+
+
+
 });
 
 
@@ -39,5 +54,6 @@ Route::group(['namespace' => 'Admin', 'middleware' => 'guest:admin'], function (
     Route::get('login', 'LoginController@getLogin')->name('get.admin.login');
     Route::post('login', 'LoginController@login')->name('admin.login');
 });
+
 
 
