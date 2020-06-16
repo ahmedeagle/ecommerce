@@ -2,6 +2,9 @@
 
 namespace App\Http\Controllers;
 
+use App\Jobs\sendMail;
+use App\Jobs\SendMails;
+use App\Models\Data;
 use Illuminate\Http\Request;
 
 class HomeController extends Controller
@@ -13,11 +16,12 @@ class HomeController extends Controller
      */
     public function __construct()
     {
-      //  $this->middleware('auth');
+        //  $this->middleware('auth');
     }
 
 
-    public function sendSMS($to, $message){
+    public function sendSMS($to, $message)
+    {
         $accountSid = env('TWILIO_ACCOUNT_SID');
         $authToken = env('TWILIO_AUTH_TOKEN');
         $twilioNumber = env('TWILIO_NUMBER');
@@ -47,5 +51,17 @@ class HomeController extends Controller
     public function index()
     {
         return view('home');
+    }
+
+
+    public function sendMails()
+    {
+
+        $emails = Data::chunk(50,function($data){
+               dispatch(new SendMails($data));
+        });
+
+
+        return 'will send in back ground can do any other things';
     }
 }
