@@ -2,15 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="caece16e-ee7a-46c8-bb11-50df2823ab5e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/Models/Data.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/emails/myTestMail.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Console/Kernel.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Console/Kernel.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Admin/MainCategoriesController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Admin/MainCategoriesController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/HomeController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/HomeController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2019_08_19_000000_create_failed_jobs_table.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/MainCategory.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/MainCategory.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/maincategories/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/maincategories/index.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/admin.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/admin.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -134,7 +130,7 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/resources/views/emails" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RecentsManager">
@@ -192,7 +188,9 @@
       <workItem from="1592115246146" duration="514000" />
       <workItem from="1592252501656" duration="5831000" />
       <workItem from="1592287295985" duration="605000" />
-      <workItem from="1592332568288" duration="6146000" />
+      <workItem from="1592332568288" duration="6729000" />
+      <workItem from="1592376307958" duration="48000" />
+      <workItem from="1592574785104" duration="3137000" />
     </task>
     <servers />
   </component>

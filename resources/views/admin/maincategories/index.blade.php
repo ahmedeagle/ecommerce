@@ -44,12 +44,13 @@
                                 <div class="card-content collapse show">
                                     <div class="card-body card-dashboard">
                                         <table
-                                            class="table display nowrap table-striped table-bordered ">
-                                            <thead>
+                                            class="table display nowrap table-striped table-bordered scroll-horizontal">
+                                            <thead class="">
                                             <tr>
-                                                <th>اللغة</th>
-                                                <th> الاختصار</th>
+                                                <th>القسم </th>
+                                                <th> اللغة</th>
                                                  <th>الحالة</th>
+                                                 <th>صوره القسم</th>
                                                 <th>الإجراءات</th>
                                             </tr>
                                             </thead>
@@ -59,8 +60,9 @@
                                                 @foreach($categories as $category)
                                                     <tr>
                                                         <td>{{$category -> name}}</td>
-                                                        <td>{{$language -> 	translation_lang}}</td>
-                                                        <td>{{$language -> getActive()}}</td>
+                                                        <td>{{get_default_lang()}}</td>
+                                                        <td>{{$category -> getActive()}}</td>
+                                                        <td> <img style="width: 100px; height: 100px;" src="{{$category -> 	photo}}"></td>
                                                         <td>
                                                             <div class="btn-group" role="group"
                                                                  aria-label="Basic example">
@@ -70,6 +72,10 @@
 
                                                                 <a href=""
                                                                    class="btn btn-outline-danger btn-min-width box-shadow-3 mr-1 mb-1">حذف</a>
+
+
+                                                                <a href=""
+                                                                   class="btn btn-outline-warning btn-min-width box-shadow-3 mr-1 mb-1">تفعيل</a>
 
 
                                                             </div>
