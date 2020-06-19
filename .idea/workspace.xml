@@ -3,7 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="caece16e-ee7a-46c8-bb11-50df2823ab5e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/admin/maincategories/create.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/maincategories/create.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Admin/MainCategoriesController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Admin/MainCategoriesController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Requests/MainCategoryRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Requests/MainCategoryRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/MainCategory.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/MainCategory.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/maincategories/edit.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/maincategories/edit.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/admin/maincategories/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/maincategories/index.blade.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -132,16 +135,16 @@
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\wamp64\www\ecommerce\resources\views\front" />
-      <recent name="C:\wamp64\www\ecommerce" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\wamp64\www\ecommerce\resources\views\emails" />
       <recent name="C:\wamp64\www\ecommerce\app\Models" />
       <recent name="C:\wamp64\www\ecommerce\resources\lang" />
       <recent name="C:\wamp64\www\ecommerce\resources\lang\en" />
       <recent name="C:\wamp64\www\ecommerce\resources\lang\ar" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\wamp64\www\ecommerce\resources\views\front" />
+      <recent name="C:\wamp64\www\ecommerce" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -188,7 +191,7 @@
       <workItem from="1592287295985" duration="605000" />
       <workItem from="1592332568288" duration="6729000" />
       <workItem from="1592376307958" duration="48000" />
-      <workItem from="1592574785104" duration="3935000" />
+      <workItem from="1592574785104" duration="15003000" />
     </task>
     <servers />
   </component>
