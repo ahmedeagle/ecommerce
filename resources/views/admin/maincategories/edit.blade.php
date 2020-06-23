@@ -153,7 +153,11 @@
                                             @endisset
                                         </ul>
                                         <div class="tab-content px-1 pt-1">
-                                            <div role="tabpanel" class="tab-pane  @if($index ==  0) active  @endif  " id="homeLable{{$index}}"
+
+                                            @isset($mainCategory -> categories)
+                                                @foreach($mainCategory -> categories   as $index =>  $translation)
+
+                                                <div role="tabpanel" class="tab-pane  @if($index ==  0) active  @endif  " id="homeLable{{$index}}"
                                                  aria-labelledby="homeLable-tab"
                                                  aria-expanded="{{$index ==  0 ? 'true' : 'false'}}">
 
@@ -235,6 +239,9 @@
                                                     </div>
                                                 </form>
                                             </div>
+
+                                                @endforeach
+                                            @endisset
 
                                         </div>
 
