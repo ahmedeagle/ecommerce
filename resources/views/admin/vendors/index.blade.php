@@ -63,7 +63,7 @@
                                                         <td>{{$vendor -> name}}</td>
                                                         <td><img style="width: 150px; height: 100px;"
                                                                  src="{{$vendor -> 	logo}}"></td>
-                                                        <td>
+
                                                         <td>{{$vendor -> mobile}}</td>
                                                         <td> {{$vendor -> 	category -> name}}</td>
 

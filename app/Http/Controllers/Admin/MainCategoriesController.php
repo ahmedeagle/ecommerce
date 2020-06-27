@@ -93,7 +93,6 @@ class MainCategoriesController extends Controller
 
     public function edit($mainCat_id)
     {
-
            //get specific categories and its translations
              $mainCategory = MainCategory::with('categories')
               ->selection()

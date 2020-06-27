@@ -3,6 +3,7 @@
 namespace App\Http\Controllers\Admin;
 
 use App\Http\Controllers\Controller;
+use App\Http\Requests\VendorRequest;
 use App\Models\MainCategory;
 use App\Models\Vendor;
 use Illuminate\Http\Request;
@@ -13,7 +14,7 @@ class VendorsController extends Controller
 
     public function index()
     {
-        $vendors = Vendor::selection()->paginate(PAGINATION_COUNT);
+         $vendors = Vendor::selection()->paginate(PAGINATION_COUNT);
         return view('admin.vendors.index', compact('vendors'));
     }
 
@@ -23,17 +24,36 @@ class VendorsController extends Controller
         return view('admin.vendors.create', compact('categories'));
     }
 
-    public function store(Request $request)
+    public function store(VendorRequest $request)
     {
-
         try {
-            //make validation
 
-            //insert to DB
+            if (!$request->has('active'))
+                $request->request->add(['active' => 0]);
+            else
+                $request->request->add(['active' => 1]);
 
-            //redirect message
-            //
-        }catch (\Exception $ex){
+            $filePath = "";
+            if ($request->has('logo')) {
+                $filePath = uploadImage('vendors', $request->logo);
+            }
+
+            Vendor::create([
+                'name' => $request->name,
+                'mobile' => $request->mobile,
+                'email' => $request->email,
+                'active' => $request->active,
+                'address' => $request->address,
+                'logo' => $filePath,
+                'category_id'  => $request -> category_id
+            ]);
+
+            return redirect()->route('admin.vendors')->with(['success' => 'تم الحفظ بنجاح']);
+
+        } catch (\Exception $ex) {
+
+            return $ex;
+            return redirect()->route('admin.vendors')->with(['error' => 'حدث خطا ما برجاء المحاوله لاحقا']);
 
         }
     }
