@@ -7,7 +7,8 @@ use App\Http\Requests\VendorRequest;
 use App\Models\MainCategory;
 use App\Models\Vendor;
 use Illuminate\Http\Request;
-
+use Illuminate\Support\Facades\Notification;
+use App\Notifications\VendorCreated;
 class VendorsController extends Controller
 {
 
@@ -38,7 +39,7 @@ class VendorsController extends Controller
                 $filePath = uploadImage('vendors', $request->logo);
             }
 
-            Vendor::create([
+            $vendor = Vendor::create([
                 'name' => $request->name,
                 'mobile' => $request->mobile,
                 'email' => $request->email,
@@ -48,11 +49,12 @@ class VendorsController extends Controller
                 'category_id'  => $request -> category_id
             ]);
 
+            Notification::send($vendor, new VendorCreated($vendor));
+
             return redirect()->route('admin.vendors')->with(['success' => 'تم الحفظ بنجاح']);
 
         } catch (\Exception $ex) {
 
-            return $ex;
             return redirect()->route('admin.vendors')->with(['error' => 'حدث خطا ما برجاء المحاوله لاحقا']);
 
         }
