@@ -4,7 +4,6 @@
     <list default="true" id="caece16e-ee7a-46c8-bb11-50df2823ab5e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Admin/VendorsController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Admin/VendorsController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/admin/includes/sidebar.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/includes/sidebar.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/admin/vendors/create.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/vendors/create.blade.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -194,7 +193,9 @@
       <workItem from="1592376307958" duration="48000" />
       <workItem from="1592574785104" duration="15630000" />
       <workItem from="1592640018081" duration="2083000" />
-      <workItem from="1592940236115" duration="7172000" />
+      <workItem from="1592940236115" duration="7822000" />
+      <workItem from="1592982839144" duration="620000" />
+      <workItem from="1593272407954" duration="3067000" />
     </task>
     <servers />
   </component>

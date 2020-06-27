@@ -19,13 +19,23 @@ class VendorsController extends Controller
 
     public function create()
     {
-        $categories = MainCategory::where('translation_of',0)->active()->get();
-        return view('admin.vendors.create',compact('categories'));
+        $categories = MainCategory::where('translation_of', 0)->active()->get();
+        return view('admin.vendors.create', compact('categories'));
     }
 
-    public function store()
+    public function store(Request $request)
     {
 
+        try {
+            //make validation
+
+            //insert to DB
+
+            //redirect message
+            //
+        }catch (\Exception $ex){
+
+        }
     }
 
     public function edit()
