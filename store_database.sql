@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1:3308
--- Generation Time: Jun 16, 2020 at 08:33 PM
+-- Generation Time: Jun 27, 2020 at 04:50 PM
 -- Server version: 8.0.18
 -- PHP Version: 7.3.12
 
@@ -4184,7 +4184,7 @@ CREATE TABLE IF NOT EXISTS `languages` (
   `created_at` timestamp NULL DEFAULT NULL,
   `updated_at` timestamp NULL DEFAULT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=MyISAM AUTO_INCREMENT=9 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+) ENGINE=MyISAM AUTO_INCREMENT=12 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 
 --
 -- Dumping data for table `languages`
@@ -4193,7 +4193,9 @@ CREATE TABLE IF NOT EXISTS `languages` (
 INSERT INTO `languages` (`id`, `abbr`, `locale`, `name`, `direction`, `active`, `created_at`, `updated_at`) VALUES
 (8, 'fr', NULL, 'french', 'ltr', 0, '2020-06-13 10:24:38', '2020-06-13 10:28:46'),
 (6, 'en', NULL, 'ُEnglish', 'ltr', 1, '2020-06-10 17:10:11', '2020-06-13 07:07:08'),
-(5, 'ar', NULL, 'اللغة العربية', 'rtl', 1, '2020-06-10 17:09:46', '2020-06-10 17:44:59');
+(9, 'fr', NULL, 'french', 'ltr', 1, '2020-06-19 16:22:15', '2020-06-19 16:22:15'),
+(5, 'ar', NULL, 'اللغة العربية', 'rtl', 1, '2020-06-10 17:09:46', '2020-06-10 17:44:59'),
+(11, 'es', NULL, 'spanish', 'ltr', 1, '2020-06-23 16:55:29', '2020-06-23 16:55:29');
 
 -- --------------------------------------------------------
 
@@ -4213,15 +4215,25 @@ CREATE TABLE IF NOT EXISTS `main_categories` (
   `created_at` timestamp NULL DEFAULT NULL,
   `updated_at` timestamp NULL DEFAULT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=MyISAM AUTO_INCREMENT=8 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+) ENGINE=MyISAM AUTO_INCREMENT=22 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 
 --
 -- Dumping data for table `main_categories`
 --
 
 INSERT INTO `main_categories` (`id`, `translation_lang`, `translation_of`, `name`, `slug`, `photo`, `active`, `created_at`, `updated_at`) VALUES
-(6, 'ar', 0, 'ملابس', 'ملابس', 'images/maincategories/McS8JQgHj9G0k9ZIJ4PR0pqORdyzuWuQZe9CdQCw.png', 1, NULL, NULL),
-(7, 'en', 6, 'clothes', 'clothes', 'images/maincategories/McS8JQgHj9G0k9ZIJ4PR0pqORdyzuWuQZe9CdQCw.png', 1, NULL, NULL);
+(15, 'en', 14, 'chidern clothes', 'chidern clothes', 'images/maincategories/e0w0Wa9hN2vWNbeMC9puFxmIqXfqQEKJtzV6Jej6.png', 1, NULL, NULL),
+(9, 'en', 8, 'sec2', 'sec2', 'images/maincategories/BLBAxzwLfNIL1LnEp3TzzGFsFPw4nu4f3Fu0j8Rk.png', 1, NULL, NULL),
+(8, 'ar', 0, 'قسم', 'قسم', 'images/maincategories/BLBAxzwLfNIL1LnEp3TzzGFsFPw4nu4f3Fu0j8Rk.png', 1, NULL, NULL),
+(13, 'en', 12, 'asas', 'sdsdosdsd', 'images/maincategories/llX3itbxuVhAn8cAy09ebUbYCYCZZQiolWA8BBwQ.png', 0, NULL, '2020-06-19 16:21:12'),
+(12, 'ar', 0, 'الاثاثات', 'سنيسنينسيس', 'images/maincategories/8JBXqWn12Quxyb275pNd3f5Mebq2O1TpeKpAIxB3.png', 1, NULL, '2020-06-19 14:53:33'),
+(14, 'ar', 0, 'ملابس اطفال', 'ملابس اطفال', 'images/maincategories/e0w0Wa9hN2vWNbeMC9puFxmIqXfqQEKJtzV6Jej6.png', 1, NULL, NULL),
+(16, 'fr', 14, 'dfjdjfd', 'dfjdjfd', 'images/maincategories/e0w0Wa9hN2vWNbeMC9puFxmIqXfqQEKJtzV6Jej6.png', 1, NULL, NULL),
+(17, 'es', 14, 'يبتيابيب', 'يبتيابيب', 'images/maincategories/e0w0Wa9hN2vWNbeMC9puFxmIqXfqQEKJtzV6Jej6.png', 1, NULL, NULL),
+(18, 'ar', 0, 'عربي', '[نيبنيبيب', 'images/maincategories/aVlMJ3o6vzXo75issZ2RkWP34Vad05YrLmDBFsBA.png', 1, NULL, '2020-06-23 16:58:50'),
+(19, 'en', 18, 'fjjdfjdfj', 'fjjdfjdfj', 'images/maincategories/aVlMJ3o6vzXo75issZ2RkWP34Vad05YrLmDBFsBA.png', 1, NULL, NULL),
+(20, 'fr', 18, 'french', 'jdfjdjfdjfjq', 'images/maincategories/aVlMJ3o6vzXo75issZ2RkWP34Vad05YrLmDBFsBA.png', 0, NULL, '2020-06-23 16:59:36'),
+(21, 'es', 18, 'spanish', '[ينبيبيبيبيب', 'images/maincategories/aVlMJ3o6vzXo75issZ2RkWP34Vad05YrLmDBFsBA.png', 1, NULL, '2020-06-23 16:58:31');
 
 -- --------------------------------------------------------
 
@@ -4281,6 +4293,27 @@ CREATE TABLE IF NOT EXISTS `users` (
   PRIMARY KEY (`id`),
   UNIQUE KEY `users_email_unique` (`email`)
 ) ENGINE=MyISAM DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `vendors`
+--
+
+DROP TABLE IF EXISTS `vendors`;
+CREATE TABLE IF NOT EXISTS `vendors` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `name` varchar(150) NOT NULL,
+  `logo` varchar(200) NOT NULL,
+  `mobile` varchar(100) NOT NULL,
+  `address` text NOT NULL,
+  `email` varchar(100) DEFAULT NULL,
+  `category_id` int(11) NOT NULL,
+  `active` tinyint(1) NOT NULL DEFAULT '0',
+  `created_at` timestamp NULL DEFAULT NULL,
+  `updated_at` timestamp NULL DEFAULT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=MyISAM DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
