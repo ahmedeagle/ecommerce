@@ -2,15 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="caece16e-ee7a-46c8-bb11-50df2823ab5e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/Notifications/VendorCreated.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/vendors/TMVtMm7SSjZRT2Axio0DWuuvqitxTx8Du205pQEV.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/vendors/bo2q9rPNahDoCCPWd1VNTbWJQdwBYon8tV2t9rKt.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/vendors/ffWMfkoRYrlIQe9QPNI3fyVnBRRAMAoGkFfWqxyD.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/vendors/psD5WX2HtO2YiDpVgXONRJBeGsrzZhNuGLgH46ra.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/vendors/z85KcytICIweb0fzmLlMIuudXWvLUvTJ81vlDKw7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/vendors/5vdwDDPvrcQVsbcVaRuBOjZ6JsjchNL97MaAm1l3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/vendors/Du42U7yTTvS0gWrRnw4JBd6a4NSI2TyVjgyBVb5I.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/vendors/MnAQkOjkb239gMNsPuKgKc802w9GMs2wuN7WVrN0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/vendors/UHzo0wBjrYkMX1UoltdyP8O2WebtrqUwSL6suJNL.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/vendors/dFLdHQaBEA0rHjZLLuPpWQDa78Fuv89ZfJtJbwB8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/vendors/eQK3bze8B0UJnN1jZaCUNSwrxJsNMlyoFTVlDulU.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/vendors/smPr1tJ8eecFpZUiR1cc0qdymcahuGIiLg8Jh6xA.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/vendors/uVcYVz17w8JuNQ4N3HZ1gjt3DEcnk65iRvepLuYI.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/vendors/y0WetETI3U7pzJxIQ4CxKURaxwBXz5YtNykCrcMp.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Admin/VendorsController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Admin/VendorsController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Requests/VendorRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Requests/VendorRequest.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Models/Vendor.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Vendor.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/vendors/create.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/vendors/create.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/vendors/edit.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/vendors/edit.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/vendors/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/vendors/index.blade.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -201,7 +208,10 @@
       <workItem from="1592640018081" duration="2083000" />
       <workItem from="1592940236115" duration="7822000" />
       <workItem from="1592982839144" duration="620000" />
-      <workItem from="1593272407954" duration="10487000" />
+      <workItem from="1593272407954" duration="11009000" />
+      <workItem from="1593325238662" duration="35000" />
+      <workItem from="1593547275925" duration="7295000" />
+      <workItem from="1593584267551" duration="311000" />
     </task>
     <servers />
   </component>

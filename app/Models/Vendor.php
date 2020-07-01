@@ -12,10 +12,10 @@ class Vendor extends Model
     protected $table = 'vendors';
 
     protected $fillable = [
-        'name', 'mobile', 'address', 'email', 'logo', 'category_id', 'active', 'created_at', 'updated_at'
+        'latitude', 'longitude', 'name', 'mobile', 'password', 'address', 'email', 'logo', 'category_id', 'active', 'created_at', 'updated_at'
     ];
 
-    protected $hidden = ['category_id'];
+    protected $hidden = ['category_id', 'password'];
 
 
     public function scopeActive($query)
@@ -33,14 +33,14 @@ class Vendor extends Model
 
     public function scopeSelection($query)
     {
-        return $query->select('id', 'category_id','active', 'name', 'logo', 'mobile');
+        return $query->select('id', 'category_id','latitude','longitude', 'active', 'name', 'address', 'email', 'logo', 'mobile');
     }
 
 
+    public function category()
+    {
 
-    public function category(){
-
-        return $this -> belongsTo('App\Models\MainCategory','category_id','id');
+        return $this->belongsTo('App\Models\MainCategory', 'category_id', 'id');
     }
 
     public function getActive()
@@ -49,4 +49,11 @@ class Vendor extends Model
 
     }
 
+
+    public function setPasswordAttribute($password)
+    {
+        if (!empty($password)) {
+            $this->attributes['password'] = bcrypt($password);
+        }
+    }
 }

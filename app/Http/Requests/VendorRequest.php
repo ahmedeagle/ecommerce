@@ -26,11 +26,11 @@ class VendorRequest extends FormRequest
         return [
             'logo' => 'required_without:id|mimes:jpg,jpeg,png',
             'name' => 'required|string|max:100',
-            'mobile' =>'required|max:100',
-            'email'  => 'sometimes|nullable|email',
+            'mobile' =>'required|max:100|unique:vendors,mobile,'.$this -> id,
+            'email'  => 'required|email|unique:vendors,email,'.$this -> id,
             'category_id'  => 'required|exists:main_categories,id',
-            'address'   => 'required|string|max:500'
-
+            'address'   => 'required|string|max:500',
+            'password'   => 'required_without:id'
         ];
     }
 
@@ -44,7 +44,10 @@ class VendorRequest extends FormRequest
             'email.email' => 'ضيغه البريد الالكتروني غير صحيحه',
             'address.string' => 'العنوان لابد ان يكون حروف او حروف وارقام ',
             'name.string'  =>'الاسم لابد ان يكون حروف او حروف وارقام ',
-            'logo.required_without'  => 'الصوره مطلوبة'
+            'logo.required_without'  => 'الصوره مطلوبة',
+            'email.unique' => 'البريد الالكتروني مستخدم من قبل ',
+            'mobile.unique' => 'رقم الهاتف مستخدم من قبل ',
+
 
         ];
     }

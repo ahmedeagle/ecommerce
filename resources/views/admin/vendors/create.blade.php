@@ -46,6 +46,8 @@
                                         <form class="form" action="{{route('admin.vendors.store')}}"
                                               method="POST"
                                               enctype="multipart/form-data">
+                                            <input type="hidden"  value="" id="latitude" name="latitude">
+                                            <input type="hidden" value="" id="longitude"  name="longitude">
                                             @csrf
                                             <div class="form-group">
                                                 <label> لوجو التجار </label>
@@ -90,7 +92,7 @@
                                                                     @endif
                                                                 </optgroup>
                                                             </select>
-                                                            @error('academy_id')
+                                                            @error('category_id')
                                                             <span class="text-danger"> {{$message}}</span>
                                                             @enderror
                                                         </div>
@@ -125,6 +127,23 @@
                                                     </div>
 
 
+                                                </div>
+
+
+                                                <div class="row">
+                                                    <div class="class col-12">
+                                                            <div class="form-group">
+                                                                <label for="projectinput1">كلمة المرور  </label>
+                                                                <input type="password" id="password"
+                                                                       class="form-control"
+                                                                       placeholder="  " name="password">
+
+                                                                @error("password")
+                                                                <span class="text-danger"> {{$message}}</span>
+                                                                @enderror
+                                                            </div>
+
+                                                    </div>
                                                 </div>
 
 
@@ -198,8 +217,8 @@
             $(this).val('');
         });
 
-        $('#latitudef').val('');
-        $('#longitudef').val('');
+        $('#latitude').val('');
+        $('#longitude').val('');
 
 
         // This example adds a search box to a map, using the Google Place Autocomplete
@@ -267,8 +286,8 @@
             function geocodeLatLng(geocoder, map, infowindow,markerCurrent) {
                 var latlng = {lat: markerCurrent.position.lat(), lng: markerCurrent.position.lng()};
                 /* $('#branch-latLng').val("("+markerCurrent.position.lat() +","+markerCurrent.position.lng()+")");*/
-                $('#latitudef').val(markerCurrent.position.lat());
-                $('#longitudef').val(markerCurrent.position.lng());
+                $('#latitude').val(markerCurrent.position.lat());
+                $('#longitude').val(markerCurrent.position.lng());
 
                 geocoder.geocode({'location': latlng}, function(results, status) {
                     if (status === 'OK') {
@@ -364,8 +383,8 @@
                     }));
 
 
-                    $('#latitudef').val(place.geometry.location.lat());
-                    $('#longitudef').val(place.geometry.location.lng());
+                    $('#latitude').val(place.geometry.location.lat());
+                    $('#longitude').val(place.geometry.location.lng());
 
                     if (place.geometry.viewport) {
                         // Only geocodes have viewport.
@@ -391,8 +410,8 @@
             var lat = trainindIdArray[0];
             var Lng  = trainindIdArray[1];
 
-            $("#latitudef").val(lat);
-            $("#longitudef").val(Lng);
+            $("#latitude").val(lat);
+            $("#longitude").val(Lng);
         }
 
     </script>
