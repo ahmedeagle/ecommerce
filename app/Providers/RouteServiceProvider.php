@@ -49,6 +49,8 @@ class RouteServiceProvider extends ServiceProvider
 
         $this->mapAdminRoutes();
 
+        $this->mapCollRoutes();
+
         //
     }
 
@@ -73,6 +75,17 @@ class RouteServiceProvider extends ServiceProvider
             ->namespace($this->namespace)
             ->group(base_path('routes/admin.php'));
     }
+
+
+
+    protected function mapCollRoutes()
+    {
+        Route::middleware('web')
+            ->namespace($this->namespace)
+            ->group(base_path('routes/coll.php'));
+    }
+
+
 
     /**
      * Define the "api" routes for the application.
