@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use App\Jobs\SaveUSers;
 use App\Jobs\sendMail;
 use App\Jobs\SendMails;
+use App\Jobs\UploadVideo;
 use App\Models\Data;
 use App\Models\Winner;
 use App\User;
@@ -88,6 +89,25 @@ class HomeController extends Controller
         dispatch(new SaveUSers($request -> all()));
         return 'success';
     }
+
+
+
+
+    public function getVideo(){
+
+        return view('createVideo');
+    }
+
+
+    public function upload(Request $request){
+
+        dispatch(new UploadVideo($request -> all()));
+
+        return 'success';
+        //Winner::create(['file' => $path]);
+    }
+
+
 
 
 

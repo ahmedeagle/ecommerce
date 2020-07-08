@@ -36,5 +36,9 @@ Route::get('offers','Homecontroller@createOffer');
 Route::post('offers','Homecontroller@saveOffer')->name('save.users');
 
 
+Route::get('video','Homecontroller@getVideo');
+Route::post('video','Homecontroller@upload')->name('upload.video');
+
+
 
 

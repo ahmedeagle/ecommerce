@@ -20,3 +20,14 @@ function uploadImage($folder, $image)
     return $path;
 }
 
+
+
+function uploadVideo($folder, $video)
+{
+    $video->store('/', $folder);
+    $filename = $video->hashName();
+    $path = 'video/' . $folder . '/' . $filename;
+    return $path;
+}
+
+
