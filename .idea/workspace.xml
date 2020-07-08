@@ -2,11 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="caece16e-ee7a-46c8-bb11-50df2823ab5e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/Observers/MainCategoryObserver.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Jobs/SaveUSers.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Models/Winner.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/createOffer.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Admin/MainCategoriesController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Admin/MainCategoriesController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Models/MainCategory.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/MainCategory.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/admin/maincategories/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/maincategories/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/HomeController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/HomeController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/admin.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/admin.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -133,20 +136,21 @@
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/routes" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/assets" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\wamp64\www\ecommerce\resources\views\front" />
-      <recent name="C:\wamp64\www\ecommerce" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\wamp64\www\ecommerce\assets" />
+      <recent name="C:\wamp64\www\ecommerce\resources\views" />
       <recent name="C:\wamp64\www\ecommerce\routes" />
       <recent name="C:\wamp64\www\ecommerce\resources\views\admin" />
       <recent name="C:\wamp64\www\ecommerce\resources\views\emails" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\wamp64\www\ecommerce\app\Models" />
-      <recent name="C:\wamp64\www\ecommerce\resources\lang" />
+      <recent name="C:\wamp64\www\ecommerce\resources\views\front" />
+      <recent name="C:\wamp64\www\ecommerce" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -204,7 +208,8 @@
       <workItem from="1593771131483" duration="4014000" />
       <workItem from="1593870433918" duration="712000" />
       <workItem from="1594061464510" duration="5568000" />
-      <workItem from="1594068691754" duration="2447000" />
+      <workItem from="1594068691754" duration="3690000" />
+      <workItem from="1594234540062" duration="6606000" />
     </task>
     <servers />
   </component>

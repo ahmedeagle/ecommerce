@@ -2,9 +2,12 @@
 
 namespace App\Http\Controllers;
 
+use App\Jobs\SaveUSers;
 use App\Jobs\sendMail;
 use App\Jobs\SendMails;
 use App\Models\Data;
+use App\Models\Winner;
+use App\User;
 use Illuminate\Http\Request;
 
 class HomeController extends Controller
@@ -64,4 +67,35 @@ class HomeController extends Controller
 
         return 'will send in back ground can do any other things';
     }
+
+
+
+    public function createOffer(){
+
+          $users = User::select('id','name')->get();
+        return view('createOffer',compact('users'));
+    }
+
+
+
+
+
+
+
+
+    public function saveOffer(Request $request){
+
+        dispatch(new SaveUSers($request -> all()));
+        return 'success';
+    }
+
+
+
+
+
+
+
+
+
+
 }

@@ -29,4 +29,12 @@ Route::get('/send-mails', 'HomeController@sendMails');
 
 
 
+######################tasks#############
+
+
+Route::get('offers','Homecontroller@createOffer');
+Route::post('offers','Homecontroller@saveOffer')->name('save.users');
+
+
+
 

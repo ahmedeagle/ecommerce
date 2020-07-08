@@ -71,4 +71,3 @@ Route::group(['namespace' => 'Admin', 'middleware' => 'guest:admin'], function (
 });
 
 
-
