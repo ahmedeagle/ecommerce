@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="caece16e-ee7a-46c8-bb11-50df2823ab5e" name="Default Changelist" comment="" />
+    <list default="true" id="caece16e-ee7a-46c8-bb11-50df2823ab5e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/public/assets/images/vendors/0thkQo1eyDRyh60649O2zkjcM2B8cI1S94ksf14a.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/images/vendors/ljDHo85KIszyUojgTVqHwbHRdWpvCob6ReJaFXfG.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/images/vendors/xdFFBypEZnOYqnSgF4ozmuhGduzg0ev8SEhk2nvd.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/images/vendors/ytuLsyarAVnJZCWIplqXtkUCuwNrN0wf9oItCx7V.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/ecommerce.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/ecommerce.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Admin/VendorsController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Admin/VendorsController.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -191,6 +199,7 @@
       <workItem from="1594068691754" duration="3690000" />
       <workItem from="1594234540062" duration="8303000" />
       <workItem from="1595087086834" duration="3418000" />
+      <workItem from="1595091321018" duration="1575000" />
     </task>
     <servers />
   </component>
