@@ -2,13 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="caece16e-ee7a-46c8-bb11-50df2823ab5e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/public/assets/images/vendors/0thkQo1eyDRyh60649O2zkjcM2B8cI1S94ksf14a.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/images/vendors/ljDHo85KIszyUojgTVqHwbHRdWpvCob6ReJaFXfG.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/images/vendors/xdFFBypEZnOYqnSgF4ozmuhGduzg0ev8SEhk2nvd.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/images/vendors/ytuLsyarAVnJZCWIplqXtkUCuwNrN0wf9oItCx7V.jpeg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/ecommerce.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/ecommerce.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/php-docker-settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/php-test-framework.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/deploy.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Admin/VendorsController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Admin/VendorsController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/vendors/create.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/vendors/create.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/vendors/edit.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/vendors/edit.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,7 +24,13 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="PhpWorkspaceProjectConfiguration">
+  <component name="PhpDebugGeneral" listening_started="true" />
+  <component name="PhpServers">
+    <servers>
+      <server host="test.docker.com" id="19932782-0a69-4142-9999-469745572225" name="laradock" use_path_mappings="true" />
+    </servers>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="laradock-ecommerce_php-fpm:latest">
     <include_path>
       <path value="$PROJECT_DIR$/vendor/mockery/mockery" />
       <path value="$PROJECT_DIR$/vendor/symfony/mime" />
@@ -135,9 +143,11 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/resources/views" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php.debug" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -155,7 +165,7 @@
   </component>
   <component name="RunManager">
     <configuration name="phpunit.xml" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
-      <TestRunner scope="XML" />
+      <TestRunner configuration_file="/opt/project/phpunit.xml" scope="XML" />
       <method v="2" />
     </configuration>
   </component>
@@ -199,7 +209,9 @@
       <workItem from="1594068691754" duration="3690000" />
       <workItem from="1594234540062" duration="8303000" />
       <workItem from="1595087086834" duration="3418000" />
-      <workItem from="1595091321018" duration="1575000" />
+      <workItem from="1595091321018" duration="10979000" />
+      <workItem from="1595192923149" duration="3555000" />
+      <workItem from="1595271218386" duration="2015000" />
     </task>
     <servers />
   </component>
@@ -220,6 +232,28 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="302" y="57" width="824" height="691" key="#CLI_Interpreters" timestamp="1595274155273">
+      <screen x="72" y="27" width="1294" height="741" />
+    </state>
+    <state x="302" y="57" width="824" height="691" key="#CLI_Interpreters/72.27.1294.741@72.27.1294.741" timestamp="1595274155273" />
+    <state x="314" y="59" width="800" height="684" key="#Deployment" timestamp="1595197579645">
+      <screen x="72" y="27" width="1294" height="741" />
+    </state>
+    <state x="314" y="59" width="800" height="684" key="#Deployment/72.27.1294.741@72.27.1294.741" timestamp="1595197579645" />
+    <state x="348" y="27" width="746" height="741" key="#phpunit.xml" timestamp="1595196947758">
+      <screen x="72" y="27" width="1294" height="741" />
+    </state>
+    <state x="348" y="27" width="746" height="741" key="#phpunit.xml/72.27.1294.741@72.27.1294.741" timestamp="1595196947758" />
+    <state x="516" y="157" width="424" height="491" key="FileChooserDialogImpl" timestamp="1595273983808">
+      <screen x="72" y="27" width="1294" height="741" />
+    </state>
+    <state x="516" y="157" width="424" height="491" key="FileChooserDialogImpl/72.27.1294.741@72.27.1294.741" timestamp="1595273983808" />
+    <state x="208" y="31" width="1050" height="737" key="SettingsEditor" timestamp="1595274259701">
+      <screen x="72" y="27" width="1294" height="741" />
+    </state>
+    <state x="208" y="31" width="1050" height="737" key="SettingsEditor/72.27.1294.741@72.27.1294.741" timestamp="1595274259701" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

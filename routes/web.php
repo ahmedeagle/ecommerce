@@ -17,7 +17,7 @@ use Illuminate\Support\Facades\Route;
 route::get('sendSms//','HomeController@sendSms');
 
 Route::get('/', function () {
-    return view('front.home');
+    return view('front.homeغغ');
 });
 
 Auth::routes();
