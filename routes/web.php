@@ -17,15 +17,13 @@ use Illuminate\Support\Facades\Route;
 route::get('sendSms//','HomeController@sendSms');
 
 Route::get('/', function () {
-    return view('front.homeغغ');
+    return view('front.home');
 });
 
 Auth::routes();
 
-Route::get('/home', 'HomeController@index')->name('home');
-
-
-Route::get('/send-mails', 'HomeController@sendMails');
+//Route::get('/home', 'HomeCo
+//Route::get('/send-mails', 'HomeController@sendMails');
 
 
 
