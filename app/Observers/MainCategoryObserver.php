@@ -6,7 +6,7 @@ use App\Models\MainCategory;
 
 class MainCategoryObserver
 {
-    /**
+    /**..
      * Handle the main category "created" event.
      *
      * @param  \App\Models\MainCategory  $mainCategory
