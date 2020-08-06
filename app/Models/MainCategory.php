@@ -4,7 +4,7 @@ namespace App\Models;
 
 use App\Observers\MainCategoryObserver;
 use Illuminate\Database\Eloquent\Model;
-use App\Models\SubCategory;
+
 class MainCategory extends Model
 {
     protected $table = 'main_categories';
@@ -42,22 +42,11 @@ class MainCategory extends Model
 
     }
 
-    public function scopeDefaultCategory($query){
-        return  $query -> where('translation_of',0);
-    }
 
-
-      // get all translation categories
     public function categories()
     {
         return $this->hasMany(self::class, 'translation_of');
     }
-
-
-    public  function subCategories(){
-        return $this -> hasMany(SubCategory::class,'category_id','id');
-    }
-
 
 
     public function vendors(){

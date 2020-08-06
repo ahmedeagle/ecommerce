@@ -2,13 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="caece16e-ee7a-46c8-bb11-50df2823ab5e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Models/SubCategory.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Models/MainCategory.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/MainCategory.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/admin/includes/sidebar.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/includes/sidebar.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/admin.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/admin.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,13 +17,7 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="PhpDebugGeneral" listening_started="true" />
-  <component name="PhpServers">
-    <servers>
-      <server host="test.docker.com" id="19932782-0a69-4142-9999-469745572225" name="laradock" use_path_mappings="true" />
-    </servers>
-  </component>
-  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="laradock-ecommerce_php-fpm:latest">
+  <component name="PhpWorkspaceProjectConfiguration">
     <include_path>
       <path value="$PROJECT_DIR$/vendor/mockery/mockery" />
       <path value="$PROJECT_DIR$/vendor/symfony/mime" />
@@ -135,18 +124,11 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
-  <component name="ProjectViewState">
-    <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showLibraryContents" value="true" />
-  </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
-    <property name="DatabaseDriversLRU" value="mysql" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../api-tutorial" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/resources/views" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php.debug" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -164,7 +146,7 @@
   </component>
   <component name="RunManager">
     <configuration name="phpunit.xml" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
-      <TestRunner configuration_file="/opt/project/phpunit.xml" scope="XML" />
+      <TestRunner scope="XML" />
       <method v="2" />
     </configuration>
   </component>
@@ -207,17 +189,11 @@
       <workItem from="1594061464510" duration="5568000" />
       <workItem from="1594068691754" duration="3690000" />
       <workItem from="1594234540062" duration="8303000" />
-      <workItem from="1595087086834" duration="3418000" />
-      <workItem from="1595091321018" duration="10979000" />
-      <workItem from="1595192923149" duration="3555000" />
-      <workItem from="1595271218386" duration="5677000" />
-      <workItem from="1595364120092" duration="294000" />
-      <workItem from="1595593237662" duration="5611000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="2" />
+    <option name="version" value="1" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -233,76 +209,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="302" y="57" width="824" height="691" key="#CLI_Interpreters" timestamp="1595274155273">
-      <screen x="72" y="27" width="1294" height="741" />
-    </state>
-    <state x="302" y="57" width="824" height="691" key="#CLI_Interpreters/72.27.1294.741@72.27.1294.741" timestamp="1595274155273" />
-    <state x="314" y="59" width="800" height="684" key="#Deployment" timestamp="1595197579645">
-      <screen x="72" y="27" width="1294" height="741" />
-    </state>
-    <state x="314" y="59" width="800" height="684" key="#Deployment/72.27.1294.741@72.27.1294.741" timestamp="1595197579645" />
-    <state x="381" y="105" width="666" height="592" key="#Docker" timestamp="1595276229713">
-      <screen x="72" y="27" width="1294" height="741" />
-    </state>
-    <state x="381" y="105" width="666" height="592" key="#Docker/72.27.1294.741@72.27.1294.741" timestamp="1595276229713" />
-    <state x="314" y="59" width="800" height="684" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1595276700998">
-      <screen x="72" y="27" width="1294" height="741" />
-    </state>
-    <state x="314" y="59" width="800" height="684" key="#com.intellij.execution.impl.EditConfigurationsDialog/72.27.1294.741@72.27.1294.741" timestamp="1595276700998" />
-    <state x="452" y="155" width="524" height="491" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1595600179109">
-      <screen x="72" y="27" width="1294" height="741" />
-    </state>
-    <state x="452" y="155" width="524" height="491" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/72.27.1294.741@72.27.1294.741" timestamp="1595600179109" />
-    <state x="348" y="27" width="746" height="741" key="#phpunit.xml" timestamp="1595196947758">
-      <screen x="72" y="27" width="1294" height="741" />
-    </state>
-    <state x="348" y="27" width="746" height="741" key="#phpunit.xml/72.27.1294.741@72.27.1294.741" timestamp="1595196947758" />
-    <state x="516" y="157" width="424" height="491" key="FileChooserDialogImpl" timestamp="1595364412056">
-      <screen x="72" y="27" width="1294" height="741" />
-    </state>
-    <state x="516" y="157" width="424" height="491" key="FileChooserDialogImpl/72.27.1294.741@72.27.1294.741" timestamp="1595364412056" />
-    <state width="1248" height="215" key="GridCell.Tab.0.bottom" timestamp="1595280048894">
-      <screen x="72" y="27" width="1294" height="741" />
-    </state>
-    <state width="1248" height="215" key="GridCell.Tab.0.bottom/72.27.1294.741@72.27.1294.741" timestamp="1595280048894" />
-    <state width="1248" height="215" key="GridCell.Tab.0.center" timestamp="1595280048894">
-      <screen x="72" y="27" width="1294" height="741" />
-    </state>
-    <state width="1248" height="215" key="GridCell.Tab.0.center/72.27.1294.741@72.27.1294.741" timestamp="1595280048894" />
-    <state width="1248" height="215" key="GridCell.Tab.0.left" timestamp="1595280048893">
-      <screen x="72" y="27" width="1294" height="741" />
-    </state>
-    <state width="1248" height="215" key="GridCell.Tab.0.left/72.27.1294.741@72.27.1294.741" timestamp="1595280048893" />
-    <state width="1248" height="215" key="GridCell.Tab.0.right" timestamp="1595280048894">
-      <screen x="72" y="27" width="1294" height="741" />
-    </state>
-    <state width="1248" height="215" key="GridCell.Tab.0.right/72.27.1294.741@72.27.1294.741" timestamp="1595280048894" />
-    <state width="1248" height="215" key="GridCell.Tab.1.bottom" timestamp="1595280048895">
-      <screen x="72" y="27" width="1294" height="741" />
-    </state>
-    <state width="1248" height="215" key="GridCell.Tab.1.bottom/72.27.1294.741@72.27.1294.741" timestamp="1595280048895" />
-    <state width="1248" height="215" key="GridCell.Tab.1.center" timestamp="1595280048895">
-      <screen x="72" y="27" width="1294" height="741" />
-    </state>
-    <state width="1248" height="215" key="GridCell.Tab.1.center/72.27.1294.741@72.27.1294.741" timestamp="1595280048895" />
-    <state width="1248" height="215" key="GridCell.Tab.1.left" timestamp="1595280048894">
-      <screen x="72" y="27" width="1294" height="741" />
-    </state>
-    <state width="1248" height="215" key="GridCell.Tab.1.left/72.27.1294.741@72.27.1294.741" timestamp="1595280048894" />
-    <state width="1248" height="215" key="GridCell.Tab.1.right" timestamp="1595280048895">
-      <screen x="72" y="27" width="1294" height="741" />
-    </state>
-    <state width="1248" height="215" key="GridCell.Tab.1.right/72.27.1294.741@72.27.1294.741" timestamp="1595280048895" />
-    <state width="263" height="500" key="HiddenNamespacesPopup" timestamp="1595276749329">
-      <screen x="72" y="27" width="1294" height="741" />
-    </state>
-    <state width="263" height="500" key="HiddenNamespacesPopup/72.27.1294.741@72.27.1294.741" timestamp="1595276749329" />
-    <state x="208" y="31" width="1050" height="737" key="SettingsEditor" timestamp="1595274259701">
-      <screen x="72" y="27" width="1294" height="741" />
-    </state>
-    <state x="208" y="31" width="1050" height="737" key="SettingsEditor/72.27.1294.741@72.27.1294.741" timestamp="1595274259701" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

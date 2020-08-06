@@ -59,7 +59,6 @@ class VendorsController extends Controller
             return redirect()->route('admin.vendors')->with(['success' => 'تم الحفظ بنجاح']);
 
         } catch (\Exception $ex) {
-            return $ex;
             return redirect()->route('admin.vendors')->with(['error' => 'حدث خطا ما برجاء المحاوله لاحقا']);
 
         }
@@ -108,7 +107,7 @@ class VendorsController extends Controller
             else
                 $request->request->add(['active' => 1]);
 
-             $data = $request->except('_token', 'id', 'logo', 'password');
+            $data = $request->except('_token', 'id', 'logo', 'password');
 
 
             if ($request->has('password') && !is_null($request->  password)) {
