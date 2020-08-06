@@ -232,9 +232,6 @@
 
     <script>
 
-        $("#pac-input").focusin(function() {
-            $(this).val('');
-        });
 
 
         // This example adds a search box to a map, using the Google Place Autocomplete
@@ -245,35 +242,55 @@
         // parameter when you first load the API. For example:
         // <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&libraries=places">
 
+
+        let lat  = $('#latitude').val();
+        let lng = $('#longitude').val();
+        $('#pac-input').val('{{$vendor  -> address}}');
+
+        if($('#latitude').val() !== "" && $('#longitude').val() !== ""){
+            prevlat = lat;
+            prevLng = lng;
+        }else{
+            prevlat =24.694970;
+            prevLng =46.724130;
+        }
+
+
         function initAutocomplete() {
-
-            var pos = {lat:   {{ $vendor->latitude }} ,  lng: {{ $vendor->longitude }} };
-
-            map = new google.maps.Map(document.getElementById('map'), {
-                zoom: 15,
-                center: pos
+            var map = new google.maps.Map(document.getElementById('map'), {
+                center: {lat: 24.740691, lng: 46.6528521 },
+                zoom: 13,
+                mapTypeId: 'roadmap'
             });
-
-
-            infoWindow = new google.maps.InfoWindow;
-            geocoder = new google.maps.Geocoder();
-
-            marker = new google.maps.Marker({
-                position: pos,
-                map: map,
-                title: '{{ $vendor->name }}'
-
-            });
-
-
-            infoWindow.setContent('{{ $vendor->name }}');
-            infoWindow.open(map, marker);
-
-
 
             // move pin and current location
             infoWindow = new google.maps.InfoWindow;
             geocoder = new google.maps.Geocoder();
+            if (navigator.geolocation) {
+                navigator.geolocation.getCurrentPosition(function(position) {
+                    var pos = {
+                        lat: position.coords.latitude,
+                        lng: position.coords.longitude
+                    };
+                    map.setCenter(pos);
+                    var marker = new google.maps.Marker({
+                        position: new google.maps.LatLng(pos),
+                        map: map,
+                        title: 'موقعك الحالي'
+                    });
+                    markers.push(marker);
+                    marker.addListener('click', function() {
+                        geocodeLatLng(geocoder, map, infoWindow,marker);
+                    });
+                    // to get current position address on load
+                    google.maps.event.trigger(marker, 'click');
+                }, function() {
+                    handleLocationError(true, infoWindow, map.getCenter());
+                });
+            } else {
+                // Browser doesn't support Geolocation
+                handleLocationError(false, infoWindow, map.getCenter());
+            }
 
             var geocoder = new google.maps.Geocoder();
             google.maps.event.addListener(map, 'click', function(event) {
@@ -296,8 +313,8 @@
             function geocodeLatLng(geocoder, map, infowindow,markerCurrent) {
                 var latlng = {lat: markerCurrent.position.lat(), lng: markerCurrent.position.lng()};
                 /* $('#branch-latLng').val("("+markerCurrent.position.lat() +","+markerCurrent.position.lng()+")");*/
-                $('#latitude').val(markerCurrent.position.lat());
-                $('#longitude').val(markerCurrent.position.lng());
+                $('#latitudef').val(markerCurrent.position.lat());
+                $('#longitudef').val(markerCurrent.position.lng());
 
                 geocoder.geocode({'location': latlng}, function(results, status) {
                     if (status === 'OK') {
@@ -393,8 +410,8 @@
                     }));
 
 
-                    $('#latitude').val(place.geometry.location.lat());
-                    $('#longitude').val(place.geometry.location.lng());
+                    $('#latitudef').val(place.geometry.location.lat());
+                    $('#longitudef').val(place.geometry.location.lng());
 
                     if (place.geometry.viewport) {
                         // Only geocodes have viewport.
@@ -420,8 +437,8 @@
             var lat = trainindIdArray[0];
             var Lng  = trainindIdArray[1];
 
-            $("#latitude").val(lat);
-            $("#longitude").val(Lng);
+            $("#latitudef").val(lat);
+            $("#longitudef").val(Lng);
         }
 
     </script>
