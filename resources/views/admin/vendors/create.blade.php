@@ -213,6 +213,8 @@
 
     <script>
 
+
+
         $("#pac-input").focusin(function() {
             $(this).val('');
         });
@@ -262,6 +264,7 @@
                 });
             } else {
                 // Browser doesn't support Geolocation
+                console.log('dsdsdsdsddsd');
                 handleLocationError(false, infoWindow, map.getCenter());
             }
 

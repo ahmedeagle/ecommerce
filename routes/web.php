@@ -22,10 +22,8 @@ Route::get('/', function () {
 
 Auth::routes();
 
-Route::get('/home', 'HomeController@index')->name('home');
-
-
-Route::get('/send-mails', 'HomeController@sendMails');
+//Route::get('/home', 'HomeCo
+//Route::get('/send-mails', 'HomeController@sendMails');
 
 
 
